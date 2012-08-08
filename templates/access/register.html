@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/main.css">
+<title>{% block title %}Create an account{% endblock %}</title>
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="up">
+<div id="logo">
+<a href="/"><img src="{{ STATIC_URL }}images/logo.png"></a> 
+<div class="registration">
+{% block body %}
+  <h1>Create an account (fill all the fields please :D)</h1>
+   <form action="" method="post">
+   {% csrf_token %}  
+	    {{ form.as_p }}
+	    <input type="submit" value="Create the account">
+  </form>
+{% endblock %}
+</div>
+</div>
+</div>
+</div>
+
+<div class='footer'>WebRTC project by Albert Abello featuring Diego G. & Xavi M.</div>
+
+</body>
+</html>

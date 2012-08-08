@@ -1,0 +1,20 @@
+{% extends "basic_template.html" %} 
+{% block title %}Welcome to the WebRTC project!{% endblock %} 
+{% block body %} {% load url from future %}
+<form action="access/login/" method="post"> 
+{% csrf_token %} 
+<table id="loginTable">
+<tr>
+	<td><label>Username: <input name="username" value="{{unknown}}"></label></td>
+	<td><label>Password: <input name="password" type="password"></label></td>
+    <td><input type="submit" value="Log in"></td>
+</tr><tr>
+    <td rowspan="3"> <a href="/access/register/">Don't you have account? CLICK HERE!</a></td>
+</tr>
+</table>
+<input type="hidden" name="next" value="{{ form.username }}/">
+</form>
+
+{% endblock %} 
+
+

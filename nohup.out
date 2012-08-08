@@ -1,0 +1,1458 @@
+82.130.18.14 - - [2012-04-22 21:34:45] "GET /churreiro/ HTTP/1.1" 200 16332 2.917852
+82.130.18.14 - - [2012-04-22 21:34:47] "GET /churreiro/ HTTP/1.1" 200 16332 2.392731
+82.130.18.14 - - [2012-04-22 21:34:50] "GET /churreiro/ HTTP/1.1" 200 16332 2.437181
+82.130.18.14 - - [2012-04-22 21:34:52] "GET /churreiro/ HTTP/1.1" 200 16332 2.494882
+82.130.18.14 - - [2012-04-22 21:34:55] "GET /churreiro/ HTTP/1.1" 200 16332 2.465373
+82.130.18.14 - - [2012-04-22 21:34:56] "GET / HTTP/1.1" 302 189 0.005234
+82.130.18.14 - - [2012-04-22 21:34:59] "GET /churreiro/ HTTP/1.1" 200 16332 3.123830
+82.130.18.14 - - [2012-04-22 21:35:00] "GET /favicon.ico HTTP/1.1" 404 2940 0.007762
+82.130.18.14 - - [2012-04-22 21:41:17] "GET / HTTP/1.1" 302 189 0.085109
+82.130.18.14 - - [2012-04-22 21:41:20] "GET /churreiro/ HTTP/1.1" 200 10858 3.281953
+82.130.18.14 - - [2012-04-22 21:41:20] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.005099
+82.130.18.14 - - [2012-04-22 21:41:21] "Socket.IO subscribe: 671932036"
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /churreiro/ HTTP/1.1" 200 19748 3.148756
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000686
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/view.css HTTP/1.1" 200 4887 0.000551
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000536
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/chat.css HTTP/1.1" 200 962 0.000520
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000551
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000559
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000578
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000649
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000585
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.036449
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000699
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000577
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000617
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/images/border.png HTTP/1.1" 200 260 0.000564
+82.130.18.14 - - [2012-04-22 21:41:29] "GET /static/css/images/controls.png HTTP/1.1" 200 3042 0.000548
+82.130.18.14 - - [2012-04-22 21:41:29] "Socket.IO subscribe: 671932036"
+82.130.18.14 - - [2012-04-22 21:41:31] "GET /static/css/images/loading_background.png HTTP/1.1" 200 305 0.000651
+82.130.18.14 - - [2012-04-22 21:41:31] "GET /static/css/images/loading.gif HTTP/1.1" 200 9576 0.000532
+82.130.18.14 - - [2012-04-22 21:41:43] "GET / HTTP/1.1" 302 196 0.005320
+82.130.18.14 - - [2012-04-22 21:41:45] "GET /albertabellotest/ HTTP/1.1" 200 11410 1.596330
+82.130.18.14 - - [2012-04-22 21:41:45] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000660
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/css/chat.css HTTP/1.1" 200 962 0.000662
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/css/view.css HTTP/1.1" 200 4887 0.000603
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000536
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000586
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000534
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.040525
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000596
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000654
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000587
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000536
+82.130.18.14 - - [2012-04-22 21:41:46] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.028724
+82.130.18.14 - - [2012-04-22 21:41:58] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000658
+82.130.18.14 - - [2012-04-22 21:41:58] "GET /static/css/images/border.png HTTP/1.1" 200 260 0.000496
+82.130.18.14 - - [2012-04-22 21:41:58] "GET /static/css/images/controls.png HTTP/1.1" 200 3042 0.000502
+82.130.18.14 - - [2012-04-22 21:41:59] "GET /static/images/favicon.ico HTTP/1.1" 200 1302 0.000690
+82.130.18.14 - - [2012-04-22 21:42:43] "POST /churreiro/create/ HTTP/1.1" 302 205 0.009023
+82.130.18.14 - - [2012-04-22 21:42:45] "GET /churreiro/100003471292259/ HTTP/1.1" 200 12583 2.476385
+82.130.18.14 - - [2012-04-22 21:42:45] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000556
+82.130.18.14 - - [2012-04-22 21:42:45] "GET /static/css/view.css HTTP/1.1" 304 90 0.000506
+82.130.18.14 - - [2012-04-22 21:42:45] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000457
+82.130.18.14 - - [2012-04-22 21:42:45] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000405
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000505
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000420
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000414
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000412
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/chat.js HTTP/1.1" 200 4454 0.000522
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000442
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000453
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000422
+82.130.18.14 - - [2012-04-22 21:42:46] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000481
+82.130.18.14 - - [2012-04-22 21:42:46] "Socket.IO subscribe: room-84"
+82.130.18.14 - - [2012-04-22 21:42:46] "Socket.IO message: {'action': 'start', 'room': 84, 'name': 'Albert Abello Lozano'}"
+82.130.18.14 - - [2012-04-22 21:42:51] "GET / HTTP/1.1" 302 189 0.005050
+82.130.18.14 - - [2012-04-22 21:42:54] "GET /churreiro/ HTTP/1.1" 200 19748 2.368992
+82.130.18.14 - - [2012-04-22 21:42:54] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000520
+82.130.18.14 - - [2012-04-22 21:42:54] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000414
+82.130.18.14 - - [2012-04-22 21:42:54] "Socket.IO subscribe: 671932036"
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /albertabellotest/ HTTP/1.1" 200 11410 2.082654
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000522
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/css/view.css HTTP/1.1" 304 90 0.000539
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000435
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000464
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000430
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000431
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000417
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000433
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000435
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000413
+82.130.18.14 - - [2012-04-22 21:42:58] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000423
+82.130.18.14 - - [2012-04-22 21:42:59] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000506
+82.130.18.14 - - [2012-04-22 21:42:59] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000429
+82.130.18.14 - - [2012-04-22 21:42:59] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000422
+82.130.18.14 - - [2012-04-22 21:42:59] "Socket.IO subscribe: 100003471292259"
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /churreiro/ HTTP/1.1" 200 19748 2.820315
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000565
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/css/view.css HTTP/1.1" 304 90 0.000419
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000424
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000426
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000440
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000422
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000421
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000418
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000447
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000417
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000424
+82.130.18.14 - - [2012-04-22 21:43:05] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000511
+82.130.18.14 - - [2012-04-22 21:43:05] "Socket.IO subscribe: 671932036"
+82.130.18.14 - - [2012-04-22 21:43:13] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000567
+82.130.18.14 - - [2012-04-22 21:43:13] "GET /static/css/images/loading_background.png HTTP/1.1" 304 91 0.000434
+82.130.18.14 - - [2012-04-22 21:43:13] "GET /static/css/images/loading.gif HTTP/1.1" 304 91 0.000461
+82.130.18.14 - - [2012-04-22 21:43:15] "POST /churreiro/create/ HTTP/1.1" 302 205 0.008081
+82.130.18.14 - - [2012-04-22 21:43:18] "GET /churreiro/100003471292259/ HTTP/1.1" 200 12583 2.685556
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /albertabellotest/100003471292259/ HTTP/1.1" 200 12589 1.669291
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000519
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/view.css HTTP/1.1" 304 90 0.000418
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000416
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000427
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000380
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000378
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000389
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000363
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000373
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000365
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000379
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000373
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000438
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/view.css HTTP/1.1" 304 90 0.000424
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000422
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000456
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000490
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000427
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000469
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000411
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000482
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000413
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000438
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/js/chat.js HTTP/1.1" 200 4454 0.000536
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000477
+82.130.18.14 - - [2012-04-22 21:43:20] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000481
+82.130.18.14 - - [2012-04-22 21:43:20] "Socket.IO subscribe: room-84"
+82.130.18.14 - - [2012-04-22 21:43:20] "Socket.IO message: {'action': 'start', 'room': 84, 'name': 'Albert Abello Lozano'}"
+82.130.18.14 - - [2012-04-22 21:43:21] "Socket.IO subscribe: room-84"
+82.130.18.14 - - [2012-04-22 21:43:21] "Socket.IO message: {'action': 'start', 'room': 84, 'name': 'Albert Abello'}"
+82.130.18.14 - - [2012-04-22 21:43:30] "Socket.IO message: {'action': 'message', 'message': u'df', 'room': 84, 'name': u'Albert Abello'}"
+82.130.18.14 - - [2012-04-22 21:43:36] "Socket.IO message: {'action': 'invite', 'message': u'Albert Abello Lozano', 'room': 84}"
+82.130.18.14 - - [2012-04-22 21:43:37] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000665
+82.130.18.14 - - [2012-04-22 21:43:37] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000443
+82.130.18.14 - - [2012-04-22 21:43:37] "GET /static/css/images/loading_background.png HTTP/1.1" 304 91 0.000410
+82.130.18.14 - - [2012-04-22 21:43:37] "GET /static/css/images/loading.gif HTTP/1.1" 304 91 0.000439
+82.130.18.14 - - [2012-04-22 21:44:00] "GET / HTTP/1.1" 302 196 0.005081
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /albertabellotest/ HTTP/1.1" 200 11410 1.636940
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000530
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/css/view.css HTTP/1.1" 304 90 0.000521
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000449
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000495
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000472
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000445
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000457
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000444
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000436
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000426
+82.130.18.14 - - [2012-04-22 21:44:01] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000414
+82.130.18.14 - - [2012-04-22 21:44:02] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000548
+82.130.18.14 - - [2012-04-22 21:44:02] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000480
+82.130.18.14 - - [2012-04-22 21:44:02] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000449
+82.130.18.14 - - [2012-04-22 21:44:02] "Socket.IO subscribe: 100003471292259"
+82.130.18.14 - - [2012-04-22 21:44:03] "GET / HTTP/1.1" 302 189 0.005167
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /churreiro/ HTTP/1.1" 200 19748 3.147052
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000536
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/view.css HTTP/1.1" 304 90 0.000555
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000423
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000455
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000516
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000419
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000453
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000433
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000427
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000430
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000460
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000512
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000438
+82.130.18.14 - - [2012-04-22 21:44:07] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000443
+82.130.18.14 - - [2012-04-22 21:44:07] "Socket.IO subscribe: 671932036"
+82.130.18.14 - - [2012-04-22 21:44:13] "GET /static/css/images/loading_background.png HTTP/1.1" 200 305 0.000937
+82.130.18.14 - - [2012-04-22 21:44:13] "GET /static/css/images/loading.gif HTTP/1.1" 200 9576 0.000553
+82.130.18.14 - - [2012-04-22 21:44:14] "POST /albertabellotest/create/ HTTP/1.1" 302 206 0.008195
+82.130.18.14 - - [2012-04-22 21:44:21] "GET /albertabellotest/671932036/ HTTP/1.1" 200 12589 6.725883
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /churreiro/671932036/ HTTP/1.1" 200 12583 2.942069
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000518
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/css/view.css HTTP/1.1" 304 90 0.000445
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000420
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000414
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000413
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000463
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000407
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000415
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000391
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000361
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000438
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000449
+ERROR:django.request:Internal Server Error: /socket.io/xhr-polling//1335120235470
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/views.py", line 61, in socketio
+    client_end(request, socket, context)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/clients.py", line 34, in client_end
+    del CLIENTS[socket.session.session_id]
+KeyError: '332773330627'
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000476
+82.130.18.14 - - [2012-04-22 21:44:24] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000439
+82.130.18.14 - - [2012-04-22 21:44:24] "Socket.IO subscribe: room-81"
+82.130.18.14 - - [2012-04-22 21:44:24] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+82.130.18.14 - - [2012-04-22 21:44:25] "Socket.IO subscribe: room-81"
+82.130.18.14 - - [2012-04-22 21:44:25] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello Lozano'}"
+82.130.18.14 - - [2012-04-22 21:44:29] "Socket.IO message: {'action': 'invite', 'message': u'Albert Abello', 'room': 81}"
+82.130.18.14 - - [2012-04-22 21:44:29] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000630
+82.130.18.14 - - [2012-04-22 21:44:29] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000473
+82.130.18.14 - - [2012-04-22 21:44:35] "GET / HTTP/1.1" 302 189 0.005908
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /churreiro/ HTTP/1.1" 200 19748 3.019650
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000540
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/css/view.css HTTP/1.1" 304 90 0.000432
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000429
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000441
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000426
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000422
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000427
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000438
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000434
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000422
+82.130.18.14 - - [2012-04-22 21:44:38] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000426
+82.130.18.14 - - [2012-04-22 21:44:39] "Socket.IO subscribe: 671932036"
+82.130.18.14 - - [2012-04-22 21:44:39] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000569
+82.130.18.14 - - [2012-04-22 21:44:39] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000438
+82.130.18.14 - - [2012-04-22 21:44:39] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000415
+82.130.18.14 - - [2012-04-22 21:44:41] "GET / HTTP/1.1" 302 196 0.005101
+82.130.18.14 - - [2012-04-22 21:44:43] "GET /albertabellotest/ HTTP/1.1" 200 11410 1.637887
+82.130.18.14 - - [2012-04-22 21:44:43] "Socket.IO subscribe: 100003471292259"
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /albertabellotest/ HTTP/1.1" 200 11410 1.793095
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000550
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/css/view.css HTTP/1.1" 304 90 0.000429
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000471
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000428
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000427
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000579
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000488
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000421
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000419
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000417
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000443
+82.130.18.14 - - [2012-04-22 21:45:27] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000684
+82.130.18.14 - - [2012-04-22 21:45:28] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000521
+82.130.18.14 - - [2012-04-22 21:45:28] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000519
+82.130.18.14 - - [2012-04-22 21:45:28] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000425
+82.130.18.14 - - [2012-04-22 21:45:28] "Socket.IO subscribe: 100003471292259"
+82.130.18.14 - - [2012-04-22 21:49:47] "GET /phpmyadmin HTTP/1.1" 301 188 0.000779
+82.130.18.14 - - [2012-04-22 21:49:47] "GET /phpmyadmin/ HTTP/1.1" 404 1724 0.009115
+82.130.18.14 - - [2012-04-22 21:49:47] "GET /phpmyadmin/ HTTP/1.1" 404 1724 0.009025
+82.130.18.14 - - [2012-04-22 21:49:48] "GET /favicon.ico HTTP/1.1" 404 2940 0.007744
+94.102.51.246 - - [2012-04-22 22:30:47] "GET http://24x7-allrequestsallowed.com/?PHPSESSID=7jy745aa00143P%5BVJWRIYCF_JNZ HTTP/1.1" 404 1840 0.003167
+89.27.60.115 - - [2012-04-23 01:29:36] "GET / HTTP/1.1" 302 186 0.005182
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /vr000m/ HTTP/1.1" 200 23167 5.110732
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000642
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/css/view.css HTTP/1.1" 200 4887 0.000556
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000507
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/css/chat.css HTTP/1.1" 200 962 0.000477
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000517
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000499
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000512
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000538
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.047132
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000538
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.039038
+89.27.60.115 - - [2012-04-23 01:29:41] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.077919
+89.27.60.115 - - [2012-04-23 01:29:42] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000629
+89.27.60.115 - - [2012-04-23 01:29:42] "GET /static/css/images/border.png HTTP/1.1" 200 260 0.000464
+89.27.60.115 - - [2012-04-23 01:29:42] "GET /static/css/images/controls.png HTTP/1.1" 200 3042 0.000516
+89.27.60.115 - - [2012-04-23 01:29:42] "Socket.IO subscribe: 722300271"
+89.27.60.115 - - [2012-04-23 01:29:45] "GET /static/css/images/loading.gif HTTP/1.1" 200 9576 0.000681
+89.27.60.115 - - [2012-04-23 01:29:47] "GET /static/images/favicon.ico HTTP/1.1" 200 1302 0.000616
+89.27.60.115 - - [2012-04-23 01:29:47] "GET /static/css/images/loading_background.png HTTP/1.1" 200 305 0.000578
+89.27.60.115 - - [2012-04-23 01:29:47] "POST /vr000m/create/ HTTP/1.1" 302 196 0.008092
+89.27.60.115 - - [2012-04-23 01:29:50] "GET /vr000m/671932036/ HTTP/1.1" 200 12535 2.953464
+89.27.60.115 - - [2012-04-23 01:29:51] "GET /static/js/chat.js HTTP/1.1" 200 4454 0.000600
+89.27.60.115 - - [2012-04-23 01:29:51] "Socket.IO subscribe: room-81"
+89.27.60.115 - - [2012-04-23 01:29:56] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Varun Singh'}"
+89.27.60.115 - - [2012-04-23 01:30:06] "Socket.IO message: {'action': 'message', 'message': u'test', 'room': 81, 'name': u'Varun Singh'}"
+89.27.60.115 - - [2012-04-23 01:30:17] "GET /vr000m/lookup_users/?query=irena HTTP/1.1" 200 128 0.002317
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 89, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 55, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 438, in handle_one_response
+    self.run_application()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 424, in run_application
+    self.result = self.application(self.environ, self.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py", line 67, in __call__
+    return self.application(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 276, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 281, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 721, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 772, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 255, in build_absolute_uri
+    self.get_host(), self.path)
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+<SocketIOServer fileno=4 address=195.148.127.98:80>: Failed to handle request:
+  request = HEAD / HTTP/1.0 from ('76.73.88.130', 46604)
+  application = <django.contrib.staticfiles.handlers.StaticFilesHandler object at 0x240ed10>
+
+76.73.88.130 - - [2012-04-23 07:39:01] "HEAD / HTTP/1.0" 500 161 0.045493
+130.233.213.247 - - [2012-04-23 11:20:08] "GET / HTTP/1.1" 200 1597 0.004814
+130.233.213.247 - - [2012-04-23 11:20:08] "GET /static/images/fb-login-button.png HTTP/1.1" 200 1810 0.000597
+130.233.213.247 - - [2012-04-23 11:20:08] "GET /static/css/main.css HTTP/1.1" 200 1417 0.000607
+130.233.213.247 - - [2012-04-23 11:20:08] "GET /static/images/Sign-in-with-Twitter-darker.png HTTP/1.1" 200 2519 0.000539
+130.233.213.247 - - [2012-04-23 11:20:08] "GET /favicon.ico HTTP/1.1" 404 2940 0.005420
+130.233.85.207 - - [2012-04-23 15:49:31] "GET / HTTP/1.1" 302 189 0.005530
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /churreiro/ HTTP/1.1" 200 19750 2.945208
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000568
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/css/view.css HTTP/1.1" 304 90 0.000424
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000452
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000454
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000466
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000423
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000429
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000454
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000439
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000441
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000430
+130.233.85.207 - - [2012-04-23 15:49:34] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000675
+130.233.85.207 - - [2012-04-23 15:49:35] "Socket.IO subscribe: 671932036"
+130.233.85.207 - - [2012-04-23 15:49:35] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000560
+130.233.85.207 - - [2012-04-23 15:49:35] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000489
+130.233.85.207 - - [2012-04-23 15:49:35] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000454
+130.233.85.207 - - [2012-04-23 15:49:36] "GET /static/images/favicon.ico HTTP/1.1" 200 1302 0.000699
+130.233.85.207 - - [2012-04-23 15:52:34] "GET / HTTP/1.1" 302 196 0.005766
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /albertabellotest/ HTTP/1.1" 200 11412 1.728766
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000530
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/css/view.css HTTP/1.1" 304 90 0.000473
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000548
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000421
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000418
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000415
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000419
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000454
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000452
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000486
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000649
+130.233.85.207 - - [2012-04-23 15:52:36] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000437
+130.233.85.207 - - [2012-04-23 15:52:57] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000607
+130.233.85.207 - - [2012-04-23 15:52:57] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000434
+130.233.85.207 - - [2012-04-23 15:52:57] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000426
+130.233.85.207 - - [2012-04-23 15:53:42] "GET /static/css/images/loading_background.png HTTP/1.1" 304 91 0.000580
+130.233.85.207 - - [2012-04-23 15:53:42] "GET /static/css/images/loading.gif HTTP/1.1" 304 91 0.000454
+130.233.85.207 - - [2012-04-23 15:53:44] "POST /albertabellotest/create/ HTTP/1.1" 302 206 0.008908
+130.233.85.207 - - [2012-04-23 15:53:45] "GET /albertabellotest/671932036/ HTTP/1.1" 200 12589 1.525588
+130.233.85.207 - - [2012-04-23 15:53:51] "GET /churreiro/671932036/ HTTP/1.1" 200 12583 6.121162
+130.233.85.207 - - [2012-04-23 15:53:51] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000524
+130.233.85.207 - - [2012-04-23 15:53:52] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:53:52] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:53:53] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000637
+130.233.85.207 - - [2012-04-23 15:53:53] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:53:53] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello Lozano'}"
+130.233.85.207 - - [2012-04-23 15:53:58] "Socket.IO message: {'action': 'invite', 'message': u'Albert Abello', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:53:58] "GET /static/css/images/loading.gif HTTP/1.1" 304 91 0.000605
+130.233.85.207 - - [2012-04-23 15:53:58] "GET /static/css/images/loading_background.png HTTP/1.1" 304 91 0.000466
+130.233.85.207 - - [2012-04-23 15:54:01] "Socket.IO message: {'action': 'invite-reply', 'message': u'True', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:54:48] "GET /churreiro/671932036/ HTTP/1.1" 200 12517 3.114332
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /albertabellotest/671932036/ HTTP/1.1" 200 12589 1.547801
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000532
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000422
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/view.css HTTP/1.1" 304 90 0.000412
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000413
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000420
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000399
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000514
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000435
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000633
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000425
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000413
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000471
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000443
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000446
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/view.css HTTP/1.1" 304 90 0.000433
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000429
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000429
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000467
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000433
+130.233.85.207 - - [2012-04-23 15:54:49] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000431
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000432
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000429
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000441
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000425
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000734
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000463
+130.233.85.207 - - [2012-04-23 15:54:50] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000547
+130.233.85.207 - - [2012-04-23 15:54:51] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000496
+130.233.85.207 - - [2012-04-23 15:54:51] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:54:51] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello Lozano'}"
+130.233.85.207 - - [2012-04-23 15:54:51] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:54:51] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:54:51] "GET /static/images/favicon.ico HTTP/1.1" 304 94 0.000608
+130.233.85.207 - - [2012-04-23 15:55:09] "Socket.IO message: {'action': 'message', 'message': u'o', 'room': 81, 'name': u'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:55:17] "Socket.IO message: {'action': 'invite', 'message': u'Albert Abello Lozano', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /churreiro/671932036/ HTTP/1.1" 200 12583 3.942856
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000578
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/css/view.css HTTP/1.1" 304 90 0.000437
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000436
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000447
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000446
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000443
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000419
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000424
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000501
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000423
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000453
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000686
+130.233.85.207 - - [2012-04-23 15:55:28] "GET /static/js/chat.js HTTP/1.1" 304 104 0.000429
+130.233.85.207 - - [2012-04-23 15:55:29] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000569
+130.233.85.207 - - [2012-04-23 15:55:30] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:55:30] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello Lozano'}"
+130.233.85.207 - - [2012-04-23 15:55:32] "GET / HTTP/1.1" 302 189 0.004588
+130.233.85.207 - - [2012-04-23 15:55:36] "GET /churreiro/ HTTP/1.1" 200 19750 4.234736
+130.233.85.207 - - [2012-04-23 15:55:36] "GET / HTTP/1.1" 302 196 0.004582
+130.233.85.207 - - [2012-04-23 15:55:37] "GET /albertabellotest/ HTTP/1.1" 200 11412 1.529329
+130.233.85.207 - - [2012-04-23 15:55:37] "Socket.IO subscribe: 671932036"
+130.233.85.207 - - [2012-04-23 15:55:39] "Socket.IO subscribe: 100003471292259"
+130.233.85.207 - - [2012-04-23 15:55:42] "POST /albertabellotest/create/ HTTP/1.1" 302 206 0.008032
+130.233.85.207 - - [2012-04-23 15:55:43] "GET /albertabellotest/671932036/ HTTP/1.1" 200 12589 1.501186
+130.233.85.207 - - [2012-04-23 15:55:47] "GET /churreiro/671932036/ HTTP/1.1" 200 12583 4.171109
+130.233.85.207 - - [2012-04-23 15:55:48] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:55:48] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:55:50] "Socket.IO subscribe: room-81"
+130.233.85.207 - - [2012-04-23 15:55:50] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello Lozano'}"
+130.233.85.207 - - [2012-04-23 15:55:58] "Socket.IO message: {'action': 'message', 'message': u'h', 'room': 81, 'name': u'Albert Abello Lozano'}"
+130.233.85.207 - - [2012-04-23 15:56:00] "Socket.IO message: {'action': 'invite', 'message': u'Albert Abello Lozano', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:03] "Socket.IO message: {'action': 'invite-reply', 'message': u'True', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:05] "Socket.IO message: {'action': 'video', 'message': u'SDP\n{\n   "messageType" : "OFFER",\n   "offererSessionId" : "1GM+H4zNQ+C+bCGBrM6w/wwnUGyVqboT",\n   "sdp" : "v=0\\r\\no=- 0 0 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 52069 RTP/AVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp:50394 IN IP4 130.233.85.207\\r\\na=candidate:1 2 udp 1 130.233.85.207 50394 typ host name rtcp network_name en1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 56597 typ host name rtcp network_name vnic0 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 65277 typ host name rtcp network_name vnic1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi generation 0\\r\\na=candidate:1 1 udp 1 130.233.85.207 52069 typ host name rtp network_name en1 username 0MPTQtITP1mZdqlA password 3r4BHEOfQAUhN+7FVH7zCf generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 49842 typ host name rtp network_name vnic0 username 0MPTQtITP1mZdqlA password 3r4BHEOfQAUhN+7FVH7zCf generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 54890 typ host name rtp network_name vnic1 username 0MPTQtITP1mZdqlA password 3r4BHEOfQAUhN+7FVH7zCf generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:keNcG3HezSNID7LmfDa9J4lfdUL8W1F7TNJKcbuy \\r\\na=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:gaQuA429SJy2e9JctPUyEAmQrEw3y7hi2iRdhLfa \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:2570980487 cname:hsWuSQJxx7przmb8\\r\\na=ssrc:2570980487 mslabel:7aa86fe7-0474-4cf0-a0e2-d587ece45c91\\r\\na=ssrc:2570980487 label:Default\\r\\nm=video 63186 RTP/AVPF 100 101 102\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp:62142 IN IP4 130.233.85.207\\r\\na=candidate:1 2 udp 1 130.233.85.207 62142 typ host name video_rtcp network_name en1 username YwSakUOxF+pV4GqE password WzOZWvnoU3KKQXo26W7Rtu generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 50484 typ host name video_rtcp network_name vnic0 username YwSakUOxF+pV4GqE password WzOZWvnoU3KKQXo26W7Rtu generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 60639 typ host name video_rtcp network_name vnic1 username YwSakUOxF+pV4GqE password WzOZWvnoU3KKQXo26W7Rtu generation 0\\r\\na=candidate:1 1 udp 1 130.233.85.207 63186 typ host name video_rtp network_name en1 username kI5+SblDl80FTYoO password L1FgZ9XnKZ2tQCJNoUJq5l generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 53693 typ host name video_rtp network_name vnic0 username kI5+SblDl80FTYoO password L1FgZ9XnKZ2tQCJNoUJq5l generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 51784 typ host name video_rtp network_name vnic1 username kI5+SblDl80FTYoO password L1FgZ9XnKZ2tQCJNoUJq5l generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:5ydJsA+FZVpAyqJMT/nW/UW+tcOmDvXJh/pPhNRe \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:43633328 cname:hsWuSQJxx7przmb8\\r\\na=ssrc:43633328 mslabel:7aa86fe7-0474-4cf0-a0e2-d587ece45c91\\r\\na=ssrc:43633328 label:iSight integrada\\r\\n",\n   "seq" : 1,\n   "tieBreaker" : 4126991883\n}\n', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:07] "Socket.IO message: {'action': 'video', 'message': u'SDP\n{\n   "answererSessionId" : "IoRtAFsCUSsUpw2DvjVBj9dhYaPx4O9K",\n   "messageType" : "ANSWER",\n   "offererSessionId" : "1GM+H4zNQ+C+bCGBrM6w/wwnUGyVqboT",\n   "sdp" : "v=0\\r\\no=- 0 0 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 58082 RTP/AVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp: IN IP4 \\r\\na=candidate:1 1 udp 1 130.233.85.207 58082 typ host name rtp network_name en1 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 58556 typ host name rtp network_name vnic0 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 50858 typ host name rtp network_name vnic1 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:hsWuSQJxx7przmb8HM+ZkeNcG3HezSNID7LmfDa9 \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\nm=video 61825 RTP/AVPF 100 101 102\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp: IN IP4 \\r\\na=candidate:1 1 udp 1 130.233.85.207 61825 typ host name video_rtp network_name en1 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 50047 typ host name video_rtp network_name vnic0 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 56112 typ host name video_rtp network_name vnic1 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:J4lfdUL8W1F7TNJKcbuygaQuA429SJy2e9JctPUy \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\n",\n   "seq" : 1\n}\n', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:07] "Socket.IO message: {'action': 'video', 'message': u'SDP\n{\n   "answererSessionId" : "1GM+H4zNQ+C+bCGBrM6w/wwnUGyVqboT",\n   "messageType" : "OK",\n   "offererSessionId" : "IoRtAFsCUSsUpw2DvjVBj9dhYaPx4O9K",\n   "seq" : 1\n}\n', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:07] "Socket.IO message: {'action': 'video', 'message': u'SDP\n{\n   "answererSessionId" : "1GM+H4zNQ+C+bCGBrM6w/wwnUGyVqboT",\n   "messageType" : "OFFER",\n   "offererSessionId" : "IoRtAFsCUSsUpw2DvjVBj9dhYaPx4O9K",\n   "sdp" : "v=0\\r\\no=- 0 0 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 58082 RTP/AVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp: IN IP4 \\r\\na=candidate:1 1 udp 1 130.233.85.207 58082 typ host name rtp network_name en1 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 58556 typ host name rtp network_name vnic0 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 50858 typ host name rtp network_name vnic1 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 tcp 0.8 130.233.85.207 62951 typ host name rtp network_name en1 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 tcp 0.8 10.211.55.2 62952 typ host name rtp network_name vnic0 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=candidate:1 1 tcp 0.8 10.211.55.2 62953 typ host name rtp network_name vnic1 username EAmQrEw3y7hi2iRd password hLfawKZC5ydJsA+FZVpAyq generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:hsWuSQJxx7przmb8HM+ZkeNcG3HezSNID7LmfDa9 \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:4267471899 cname:Y/0HvCUuf+52mMnc\\r\\na=ssrc:4267471899 mslabel:3f8fc395-0b41-4f17-9889-8fde6bae495a\\r\\na=ssrc:4267471899 label:Default\\r\\nm=video 61825 RTP/AVPF 100 101 102\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp: IN IP4 \\r\\na=candidate:1 1 udp 1 130.233.85.207 61825 typ host name video_rtp network_name en1 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 50047 typ host name video_rtp network_name vnic0 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 56112 typ host name video_rtp network_name vnic1 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 tcp 0.8 130.233.85.207 62954 typ host name video_rtp network_name en1 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 tcp 0.8 10.211.55.2 62955 typ host name video_rtp network_name vnic0 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=candidate:1 1 tcp 0.8 10.211.55.2 62956 typ host name video_rtp network_name vnic1 username JMT/nW/UW+tcOmDv password XJh/pPhNRedcWyymdwEPK3 generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:J4lfdUL8W1F7TNJKcbuygaQuA429SJy2e9JctPUy \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:1852546423 cname:Y/0HvCUuf+52mMnc\\r\\na=ssrc:1852546423 mslabel:3f8fc395-0b41-4f17-9889-8fde6bae495a\\r\\na=ssrc:1852546423 label:iSight integrada\\r\\n",\n   "seq" : 2,\n   "tieBreaker" : 1151813779\n}\n', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:07] "Socket.IO message: {'action': 'video', 'message': u'SDP\n{\n   "answererSessionId" : "1GM+H4zNQ+C+bCGBrM6w/wwnUGyVqboT",\n   "messageType" : "ANSWER",\n   "offererSessionId" : "IoRtAFsCUSsUpw2DvjVBj9dhYaPx4O9K",\n   "sdp" : "v=0\\r\\no=- 0 0 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 52069 RTP/AVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp:50394 IN IP4 130.233.85.207\\r\\na=candidate:1 2 udp 1 130.233.85.207 50394 typ host name rtcp network_name en1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 56597 typ host name rtcp network_name vnic0 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 65277 typ host name rtcp network_name vnic1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi generation 0\\r\\na=candidate:1 1 udp 1 130.233.85.207 52069 typ host name rtp network_name en1 username 0MPTQtITP1mZdqlA password 3r4BHEOfQAUhN+7FVH7zCf generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 49842 typ host name rtp network_name vnic0 username 0MPTQtITP1mZdqlA password 3r4BHEOfQAUhN+7FVH7zCf generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 54890 typ host name rtp network_name vnic1 username 0MPTQtITP1mZdqlA password 3r4BHEOfQAUhN+7FVH7zCf generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:keNcG3HezSNID7LmfDa9J4lfdUL8W1F7TNJKcbuy \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:2570980487 cname:hsWuSQJxx7przmb8\\r\\na=ssrc:2570980487 mslabel:7aa86fe7-0474-4cf0-a0e2-d587ece45c91\\r\\na=ssrc:2570980487 label:Default\\r\\nm=video 63186 RTP/AVPF 100 101 102\\r\\nc=IN IP4 130.233.85.207\\r\\na=rtcp:62142 IN IP4 130.233.85.207\\r\\na=candidate:1 2 udp 1 130.233.85.207 62142 typ host name video_rtcp network_name en1 username YwSakUOxF+pV4GqE password WzOZWvnoU3KKQXo26W7Rtu generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 50484 typ host name video_rtcp network_name vnic0 username YwSakUOxF+pV4GqE password WzOZWvnoU3KKQXo26W7Rtu generation 0\\r\\na=candidate:1 2 udp 1 10.211.55.2 60639 typ host name video_rtcp network_name vnic1 username YwSakUOxF+pV4GqE password WzOZWvnoU3KKQXo26W7Rtu generation 0\\r\\na=candidate:1 1 udp 1 130.233.85.207 63186 typ host name video_rtp network_name en1 username kI5+SblDl80FTYoO password L1FgZ9XnKZ2tQCJNoUJq5l generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 53693 typ host name video_rtp network_name vnic0 username kI5+SblDl80FTYoO password L1FgZ9XnKZ2tQCJNoUJq5l generation 0\\r\\na=candidate:1 1 udp 1 10.211.55.2 51784 typ host name video_rtp network_name vnic1 username kI5+SblDl80FTYoO password L1FgZ9XnKZ2tQCJNoUJq5l generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:5ydJsA+FZVpAyqJMT/nW/UW+tcOmDvXJh/pPhNRe \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:43633328 cname:hsWuSQJxx7przmb8\\r\\na=ssrc:43633328 mslabel:7aa86fe7-0474-4cf0-a0e2-d587ece45c91\\r\\na=ssrc:43633328 label:iSight integrada\\r\\n",\n   "seq" : 2\n}\n', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:07] "Socket.IO message: {'action': 'video', 'message': u'SDP\n{\n   "answererSessionId" : "IoRtAFsCUSsUpw2DvjVBj9dhYaPx4O9K",\n   "messageType" : "OK",\n   "offererSessionId" : "1GM+H4zNQ+C+bCGBrM6w/wwnUGyVqboT",\n   "seq" : 2\n}\n', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:13] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:56:17] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:56:25] "Socket.IO message: {'action': 'start', 'room': 81, 'name': 'Albert Abello'}"
+130.233.85.207 - - [2012-04-23 15:56:34] "Socket.IO message: {'action': 'video', 'message': u'BYE', 'room': 81}"
+130.233.85.207 - - [2012-04-23 15:56:37] "GET / HTTP/1.1" 302 189 0.004558
+130.233.85.207 - - [2012-04-23 15:56:40] "GET /churreiro/ HTTP/1.1" 200 19750 3.011347
+130.233.85.207 - - [2012-04-23 15:56:41] "GET / HTTP/1.1" 302 196 0.005118
+130.233.85.207 - - [2012-04-23 15:56:42] "GET /albertabellotest/ HTTP/1.1" 200 11412 1.507765
+130.233.85.207 - - [2012-04-23 15:56:42] "Socket.IO subscribe: 671932036"
+130.233.85.207 - - [2012-04-23 15:56:46] "Socket.IO subscribe: 100003471292259"
+130.233.85.207 - - [2012-04-23 15:57:42] "GET /albertabellotest/null/ HTTP/1.1" 404 1778 0.009828
+130.233.85.207 - - [2012-04-23 15:57:48] "GET /favicon.ico HTTP/1.1" 404 2940 0.005470
+130.233.85.207 - - [2012-04-23 15:59:22] "GET / HTTP/1.1" 302 196 0.005181
+130.233.85.207 - - [2012-04-23 15:59:24] "GET /albertabellotest/ HTTP/1.1" 200 11412 1.743491
+130.233.85.207 - - [2012-04-23 15:59:26] "Socket.IO subscribe: 100003471292259"
+130.233.85.207 - - [2012-04-23 16:51:51] "GET /albertabellotest/ HTTP/1.1" 200 11412 1.681601
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000541
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000442
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/css/chat.css HTTP/1.1" 304 90 0.000472
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/css/view.css HTTP/1.1" 304 90 0.000455
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000455
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000446
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000444
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000473
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000652
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000462
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000416
+130.233.85.207 - - [2012-04-23 16:51:52] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000438
+130.233.85.207 - - [2012-04-23 16:52:03] "Socket.IO subscribe: 100003471292259"
+130.233.85.207 - - [2012-04-23 16:52:03] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000500
+130.233.85.207 - - [2012-04-23 16:52:03] "GET /static/css/images/border.png HTTP/1.1" 304 91 0.000448
+130.233.85.207 - - [2012-04-23 16:52:03] "GET /static/css/images/controls.png HTTP/1.1" 304 91 0.000453
+130.233.85.207 - - [2012-04-23 16:52:04] "GET /albertabellotest/null/ HTTP/1.1" 404 1778 0.009123
+130.233.85.207 - - [2012-04-23 16:52:05] "GET /favicon.ico HTTP/1.1" 404 2940 0.005945
+130.233.85.207 - - [2012-04-23 16:52:11] "GET /albertabellotest/ HTTP/1.1" 200 11412 1.621458
+130.233.85.207 - - [2012-04-23 16:52:11] "Socket.IO subscribe: 100003471292259"
+217.28.164.138 - - [2012-04-23 19:00:24] "HEAD /manager/status HTTP/1.1" 301 193 0.000798
+217.28.164.138 - - [2012-04-23 19:00:24] "HEAD /manager/status/ HTTP/1.1" 302 202 0.002039
+217.28.164.138 - - [2012-04-23 19:00:24] "HEAD /?next=/manager/status/ HTTP/1.1" 200 265 0.004196
+78.40.170.34 - - [2012-04-24 02:38:26] "HEAD /manager/status HTTP/1.1" 301 193 0.000799
+78.40.170.34 - - [2012-04-24 02:38:26] "HEAD /manager/status/ HTTP/1.1" 302 202 0.001454
+78.40.170.34 - - [2012-04-24 02:38:26] "HEAD /?next=/manager/status/ HTTP/1.1" 200 265 0.006353
+220.226.188.32 - - [2012-04-24 06:14:47] "GET /user/soapCaller.bs HTTP/1.1" 404 4251 0.007134
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 89, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 55, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 438, in handle_one_response
+    self.run_application()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 424, in run_application
+    self.result = self.application(self.environ, self.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py", line 67, in __call__
+    return self.application(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 276, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 281, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 721, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 772, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 255, in build_absolute_uri
+    self.get_host(), self.path)
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+<SocketIOServer fileno=4 address=195.148.127.98:80>: Failed to handle request:
+  request = HEAD / HTTP/1.0 from ('94.23.45.14', 37376)
+  application = <django.contrib.staticfiles.handlers.StaticFilesHandler object at 0x240ed10>
+
+94.23.45.14 - - [2012-04-24 10:52:04] "HEAD / HTTP/1.0" 500 161 0.022656
+195.148.127.98 - - [2012-04-25 14:02:44] "GET / HTTP/1.1" 200 1597 0.004394
+195.148.127.98 - - [2012-04-25 14:02:44] "GET /static/css/main.css HTTP/1.1" 200 1417 0.001114
+195.148.127.98 - - [2012-04-25 14:02:44] "GET /static/images/fb-login-button.png HTTP/1.1" 200 1810 0.000885
+195.148.127.98 - - [2012-04-25 14:02:44] "GET /static/images/Sign-in-with-Twitter-darker.png HTTP/1.1" 200 2519 0.000786
+195.148.127.98 - - [2012-04-25 14:02:44] "GET /favicon.ico HTTP/1.1" 404 2940 0.005885
+195.148.127.98 - - [2012-04-25 14:03:17] "GET / HTTP/1.1" 200 1597 0.006784
+195.148.127.98 - - [2012-04-25 14:03:17] "GET /favicon.ico HTTP/1.1" 404 2940 0.006335
+195.148.127.98 - - [2012-04-25 14:03:20] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.003807
+86.50.139.50 - - [2012-05-29 15:08:03] "GET / HTTP/1.1" 302 196 0.213313
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /albertabellotest/ HTTP/1.1" 200 22122 1.085346
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.004186
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 14457 0.000546
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000514
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 200 39979 0.000611
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/dateformat.js HTTP/1.1" 200 4614 0.000560
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/css/bootstrap.css HTTP/1.1" 200 99149 0.008106
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.013774
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000592
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000548
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/bootstrap.js HTTP/1.1" 200 50263 0.000551
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/video_library.js HTTP/1.1" 200 7027 0.000588
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000542
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000654
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000560
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000564
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.001401
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/seriously.js HTTP/1.1" 200 75754 0.000624
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 200 2131 0.000540
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 200 1180 0.000538
+86.50.139.50 - - [2012-05-29 15:08:04] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 200 1370 0.000503
+86.50.139.50 - - [2012-05-29 15:08:07] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000643
+86.50.139.50 - - [2012-05-29 15:08:08] "Socket.IO subscribe: user-9"
+86.50.139.50 - - [2012-05-29 15:30:47] "GET / HTTP/1.1" 302 196 0.005103
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /albertabellotest/ HTTP/1.1" 200 22122 1.591884
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000950
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000459
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000401
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000425
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000472
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000400
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000417
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000443
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000439
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000415
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000397
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000397
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000441
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000419
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000447
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000402
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000403
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000397
+86.50.139.50 - - [2012-05-29 15:30:48] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000402
+86.50.139.50 - - [2012-05-29 15:30:50] "GET /static/css/images/overlay.png HTTP/1.1" 304 91 0.000544
+86.50.139.50 - - [2012-05-29 15:30:51] "Socket.IO subscribe: user-9"
+86.50.139.50 - - [2012-05-29 15:30:55] "GET / HTTP/1.1" 302 189 0.004526
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /churreiro/ HTTP/1.1" 200 24648 2.553741
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.001704
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 14457 0.000852
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000746
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/css/bootstrap.css HTTP/1.1" 200 99149 0.008701
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.013680
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 200 39979 0.000689
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/dateformat.js HTTP/1.1" 200 4614 0.000507
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000487
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000484
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/bootstrap.js HTTP/1.1" 200 50263 0.000574
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/video_library.js HTTP/1.1" 200 7027 0.000536
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000538
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000490
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000495
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000611
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.000853
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/seriously.js HTTP/1.1" 200 75754 0.000585
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 200 2131 0.000502
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 200 1180 0.000540
+86.50.139.50 - - [2012-05-29 15:30:57] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 200 1370 0.000482
+86.50.139.50 - - [2012-05-29 15:30:58] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 13976 0.000603
+86.50.139.50 - - [2012-05-29 15:30:58] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000546
+86.50.139.50 - - [2012-05-29 15:31:00] "Socket.IO subscribe: user-19"
+86.50.139.50 - - [2012-05-29 15:31:00] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8926 0.000718
+86.50.139.50 - - [2012-05-29 15:31:00] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 13976 0.000597
+86.50.139.50 - - [2012-05-29 15:31:05] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'hello', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+86.50.139.50 - - [2012-05-29 15:31:05] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8926 0.000620
+86.50.139.50 - - [2012-05-29 15:31:12] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'ji', 'author': 'Joan:'}, 'to_who_id': '19', 'id': '9'}"
+86.50.139.50 - - [2012-05-29 15:31:15] "Socket.IO message: {'action': 'video_invite', 'to_who_id': '9', 'id': '19'}"
+89.70.219.42 - - [2012-05-30 23:46:22] "GET /?-s HTTP/1.0" 200 1575 0.005471
+96.229.65.150 - - [2012-05-31 09:20:22] "GET /?-s HTTP/1.0" 200 1575 0.004138
+130.233.85.242 - - [2012-05-31 16:33:00] "GET / HTTP/1.1" 302 189 0.005067
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /churreiro/ HTTP/1.1" 200 24630 4.605431
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000661
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 14457 0.000565
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000500
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/dateformat.js HTTP/1.1" 200 4614 0.000552
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000596
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000569
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/video_library.js HTTP/1.1" 200 7027 0.000555
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.107032
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000530
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000521
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000613
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/css/bootstrap.css HTTP/1.1" 200 99149 0.101649
+130.233.85.242 - - [2012-05-31 16:33:05] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000578
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 200 39979 0.479863
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 200 2131 0.000537
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 200 1180 0.000530
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 200 1370 0.000501
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.000914
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/bootstrap.js HTTP/1.1" 200 50263 0.661829
+130.233.85.242 - - [2012-05-31 16:33:06] "GET /static/js/seriously.js HTTP/1.1" 200 75754 0.410592
+130.233.85.242 - - [2012-05-31 16:33:08] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000579
+130.233.85.242 - - [2012-05-31 16:33:12] "Socket.IO subscribe: user-19"
+130.233.85.242 - - [2012-05-31 16:33:12] "GET /static/images/favicon.ico HTTP/1.1" 200 1302 0.000650
+130.233.85.242 - - [2012-05-31 16:33:12] "GET / HTTP/1.1" 200 1596 0.003650
+130.233.85.242 - - [2012-05-31 16:33:12] "GET /static/css/main.css HTTP/1.1" 200 1417 0.000646
+130.233.85.242 - - [2012-05-31 16:33:12] "GET /static/images/fb-login-button.png HTTP/1.1" 200 1810 0.000541
+130.233.85.242 - - [2012-05-31 16:33:12] "GET /static/images/Sign-in-with-Twitter-darker.png HTTP/1.1" 200 2519 0.000494
+130.233.85.242 - - [2012-05-31 16:33:12] "GET /favicon.ico HTTP/1.1" 404 2940 0.007627
+130.233.85.242 - - [2012-05-31 16:33:18] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.002677
+DEBUG:SocialAuth:Found user data for token AAAD***********************************************************************************************************
+130.233.85.242 - - [2012-05-31 16:33:38] "GET /social_auth/complete/facebook/?code=AQBjnvUQn-Nif3zvCssu2PPpaDjKXkQ7qXVPcnT-Uvk1GGIKj0eHXx0JTddzAHDcKrf2jE9SUWos881ZwNRTcKUiZl53u-QWVHpa74iw0Wz1tEvXqecI-UDIGW20guyMBlN644VuSi_HpCTHrXno6Qqrc8HxcdCsw-Pfbi5gcw4ysQLJ7T2-po0jpX9itWv6Y5w HTTP/1.1" 302 310 8.096691
+130.233.85.242 - - [2012-05-31 16:33:38] "GET / HTTP/1.1" 302 196 0.005129
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /albertabellotest/ HTTP/1.1" 200 22140 2.168393
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000626
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 14457 0.000555
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000489
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/js/dateformat.js HTTP/1.1" 200 4614 0.000642
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000531
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/css/bootstrap.css HTTP/1.1" 200 99149 0.309338
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 200 39979 0.000587
+130.233.85.242 - - [2012-05-31 16:33:40] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000541
+130.233.85.242 - - [2012-05-31 16:33:41] "GET /static/js/video_library.js HTTP/1.1" 200 7027 0.000603
+130.233.85.242 - - [2012-05-31 16:33:41] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000516
+130.233.85.242 - - [2012-05-31 16:33:41] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000562
+130.233.85.242 - - [2012-05-31 16:33:41] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000541
+130.233.85.242 - - [2012-05-31 16:33:41] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.000932
+130.233.85.242 - - [2012-05-31 16:33:41] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 1.175289
+130.233.85.242 - - [2012-05-31 16:33:42] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 200 2131 0.000623
+130.233.85.242 - - [2012-05-31 16:33:42] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 200 1180 0.000561
+130.233.85.242 - - [2012-05-31 16:33:42] "GET /static/js/bootstrap.js HTTP/1.1" 200 50263 1.525646
+130.233.85.242 - - [2012-05-31 16:33:42] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 200 1370 0.000608
+130.233.85.242 - - [2012-05-31 16:33:44] "GET /static/js/seriously.js HTTP/1.1" 200 75754 2.620937
+130.233.85.242 - - [2012-05-31 16:33:45] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000658
+130.233.85.242 - - [2012-05-31 16:33:46] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 13976 0.000634
+130.233.85.242 - - [2012-05-31 16:33:46] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000616
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/greenlet.py", line 390, in run
+    result = self._run(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/socketio/server.py", line 49, in handle
+    handler.handle()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 180, in handle
+    result = self.handle_one_request()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 314, in handle_one_request
+    self.handle_one_response()
+  File "/usr/local/lib/python2.7/dist-packages/socketio/handler.py", line 58, in handle_one_response
+    self.handle_one_response(call_wsgi_app=False)
+TypeError: handle_one_response() got an unexpected keyword argument 'call_wsgi_app'
+<Greenlet at 0x22d0550: <bound method SocketIOServer.handle of <SocketIOServer at 0x1e642d0 fileno=4 address=195.148.127.98:80>>(<socket at 0x242f9d0 fileno=[Errno 9] Bad file des, ('130.233.85.242', 56857))> failed with TypeError
+
+130.233.85.242 - - [2012-05-31 16:33:50] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8926 0.000597
+130.233.85.242 - - [2012-05-31 16:33:51] "Socket.IO subscribe: user-9"
+130.233.85.242 - - [2012-05-31 16:33:53] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'adf', 'author': 'Joan:'}, 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:34:11] "GET /churreiro/ HTTP/1.1" 200 24648 14.248318
+130.233.85.242 - - [2012-05-31 16:34:11] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000557
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000526
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000468
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000434
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000411
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000400
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000405
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000462
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000434
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000440
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000418
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000415
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000429
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000421
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000410
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000432
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000424
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000424
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000439
+130.233.85.242 - - [2012-05-31 16:34:12] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000656
+130.233.85.242 - - [2012-05-31 16:34:13] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 13976 0.000549
+130.233.85.242 - - [2012-05-31 16:34:45] "Socket.IO subscribe: user-19"
+130.233.85.242 - - [2012-05-31 16:34:45] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8926 0.000749
+130.233.85.242 - - [2012-05-31 16:34:45] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'asdfh', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /albertabellotest/ HTTP/1.1" 200 22140 1.426773
+130.233.85.242 - - [2012-05-31 16:34:46] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'adsf', 'author': 'Joan:'}, 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000587
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000443
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000404
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000400
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000424
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000422
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000440
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000452
+130.233.85.242 - - [2012-05-31 16:34:46] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000437
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000403
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000435
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000422
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000425
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000445
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000652
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000420
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000412
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000411
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000429
+130.233.85.242 - - [2012-05-31 16:34:47] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000550
+130.233.85.242 - - [2012-05-31 16:34:51] "Socket.IO subscribe: user-9"
+130.233.85.242 - - [2012-05-31 16:37:19] "GET /churreiro/ HTTP/1.1" 200 24648 3.393079
+130.233.85.242 - - [2012-05-31 16:37:19] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000571
+130.233.85.242 - - [2012-05-31 16:37:19] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000498
+130.233.85.242 - - [2012-05-31 16:37:19] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000435
+130.233.85.242 - - [2012-05-31 16:37:19] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000489
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000433
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000427
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000449
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000405
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000467
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000411
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000421
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000406
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000425
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000413
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000487
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000635
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000422
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000409
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000430
+130.233.85.242 - - [2012-05-31 16:37:20] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000414
+130.233.85.242 - - [2012-05-31 16:37:22] "Socket.IO subscribe: user-19"
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /albertabellotest/ HTTP/1.1" 200 22140 1.781204
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000538
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000527
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000441
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000431
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000460
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000404
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000448
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000431
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000422
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000403
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000457
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000446
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000404
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000407
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000400
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000620
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000459
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000426
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000400
+130.233.85.242 - - [2012-05-31 16:37:44] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000452
+130.233.85.242 - - [2012-05-31 16:37:46] "Socket.IO subscribe: user-9"
+130.233.85.242 - - [2012-05-31 16:37:50] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'adf', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:37:55] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'weer', 'author': 'Joan:'}, 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:37:58] "Socket.IO message: {'action': 'video_invite', 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:38:00] "Socket.IO message: {'action': 'video_invite_reply', 'message': True, 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:38:18] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "messageType" : "OFFER",\n   "offererSessionId" : "leCYCyNr2Us74vziR+9dYETfB+QrWWDh",\n   "sdp" : "v=0\\r\\no=- 2933288161 1 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 63731 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp:49938 IN IP4 130.233.85.242\\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 63731 typ host network_name en1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 54545 typ host network_name vnic0 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 58728 typ host network_name vnic1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 2 udp 2130706432 130.233.85.242 49938 typ host network_name en1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 64375 typ host network_name vnic0 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 57225 typ host network_name vnic1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57075 typ host network_name en1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57076 typ host network_name vnic0 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57077 typ host network_name vnic1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 2 tcp 1694498816 130.233.85.242 57078 typ host network_name en1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57079 typ host network_name vnic0 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57080 typ host network_name vnic1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:G3HezSNID7LmfDa9J4lfdUL8W1F7TNJKcbuygaQu \\r\\na=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:A429SJy2e9JctPUyEAmQrEw3y7hi2iRdhLfawKZC \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:470638116 cname:SQJxx7przmb8HM+Z\\r\\na=ssrc:470638116 mslabel:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN\\r\\na=ssrc:470638116 label:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN0\\r\\nm=video 51457 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp:52964 IN IP4 130.233.85.242\\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 51457 typ host network_name en1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 50521 typ host network_name vnic0 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 63048 typ host network_name vnic1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 2 udp 2130706432 130.233.85.242 52964 typ host network_name en1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 50919 typ host network_name vnic0 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 58529 typ host network_name vnic1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57081 typ host network_name en1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57082 typ host network_name vnic0 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57083 typ host network_name vnic1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 2 tcp 1694498816 130.233.85.242 57084 typ host network_name en1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57085 typ host network_name vnic0 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57086 typ host network_name vnic1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:5ydJsA+FZVpAyqJMT/nW/UW+tcOmDvXJh/pPhNRe \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:470638116 cname:SQJxx7przmb8HM+Z\\r\\na=ssrc:470638116 mslabel:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN\\r\\na=ssrc:470638116 label:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN0\\r\\n",\n   "seq" : 1,\n   "tieBreaker" : 404035971\n}\n', 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:38:28] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "qkyG84fLV427kuuEwQz0i3KMES0WIcW5",\n   "messageType" : "ANSWER",\n   "offererSessionId" : "leCYCyNr2Us74vziR+9dYETfB+QrWWDh",\n   "sdp" : "v=0\\r\\no=- 2933288161 1 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 55858 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 55858 typ host network_name en1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 64021 typ host network_name vnic0 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 64316 typ host network_name vnic1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57094 typ host network_name en1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57095 typ host network_name vnic0 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57096 typ host network_name vnic1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:SQJxx7przmb8HM+ZkeNcG3HezSNID7LmfDa9J4lf \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\nm=video 61060 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 61060 typ host network_name en1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 64374 typ host network_name vnic0 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 54699 typ host network_name vnic1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57097 typ host network_name en1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57098 typ host network_name vnic0 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57099 typ host network_name vnic1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:dUL8W1F7TNJKcbuygaQuA429SJy2e9JctPUyEAmQ \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\n",\n   "seq" : 1\n}\n', 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:38:28] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "qkyG84fLV427kuuEwQz0i3KMES0WIcW5",\n   "messageType" : "OK",\n   "offererSessionId" : "leCYCyNr2Us74vziR+9dYETfB+QrWWDh",\n   "seq" : 1\n}\n', 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:38:28] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "leCYCyNr2Us74vziR+9dYETfB+QrWWDh",\n   "messageType" : "OFFER",\n   "offererSessionId" : "qkyG84fLV427kuuEwQz0i3KMES0WIcW5",\n   "sdp" : "v=0\\r\\no=- 2933288161 2 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 55858 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 55858 typ host network_name en1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 64021 typ host network_name vnic0 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 64316 typ host network_name vnic1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57094 typ host network_name en1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57095 typ host network_name vnic0 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57096 typ host network_name vnic1 username rEw3y7hi2iRdhLfa password wKZC5ydJsA+FZVpAyqJMT/nW generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:SQJxx7przmb8HM+ZkeNcG3HezSNID7LmfDa9J4lf \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:3311241017 cname:FNPn22byIknJQkg4\\r\\na=ssrc:3311241017 mslabel:8100uv1GiRZBGL4yjHxxe18nLCerR7PDxhyK\\r\\na=ssrc:3311241017 label:8100uv1GiRZBGL4yjHxxe18nLCerR7PDxhyK0\\r\\nm=video 61060 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 61060 typ host network_name en1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 64374 typ host network_name vnic0 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 54699 typ host network_name vnic1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57097 typ host network_name en1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57098 typ host network_name vnic0 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57099 typ host network_name vnic1 username /UW+tcOmDvXJh/pP password hNRedcWyymdwEPK3CXo5sTLJ generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:dUL8W1F7TNJKcbuygaQuA429SJy2e9JctPUyEAmQ \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:3311241017 cname:FNPn22byIknJQkg4\\r\\na=ssrc:3311241017 mslabel:8100uv1GiRZBGL4yjHxxe18nLCerR7PDxhyK\\r\\na=ssrc:3311241017 label:8100uv1GiRZBGL4yjHxxe18nLCerR7PDxhyK0\\r\\n",\n   "seq" : 2,\n   "tieBreaker" : 4873283\n}\n', 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:38:28] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "leCYCyNr2Us74vziR+9dYETfB+QrWWDh",\n   "messageType" : "ANSWER",\n   "offererSessionId" : "qkyG84fLV427kuuEwQz0i3KMES0WIcW5",\n   "sdp" : "v=0\\r\\no=- 2933288161 2 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\nm=audio 63731 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp:49938 IN IP4 130.233.85.242\\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 63731 typ host network_name en1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 54545 typ host network_name vnic0 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 58728 typ host network_name vnic1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 2 udp 2130706432 130.233.85.242 49938 typ host network_name en1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 64375 typ host network_name vnic0 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 57225 typ host network_name vnic1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57075 typ host network_name en1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57076 typ host network_name vnic0 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57077 typ host network_name vnic1 username dcWyymdwEPK3CXo5 password sTLJSez0eM0VUfUkZ+1Pyi0M generation 0\\r\\na=candidate:0 2 tcp 1694498816 130.233.85.242 57078 typ host network_name en1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57079 typ host network_name vnic0 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57080 typ host network_name vnic1 username PTQtITP1mZdqlA3r password 4BHEOfQAUhN+7FVH7zCfYwSa generation 0\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:G3HezSNID7LmfDa9J4lfdUL8W1F7TNJKcbuygaQu \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:470638116 cname:SQJxx7przmb8HM+Z\\r\\na=ssrc:470638116 mslabel:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN\\r\\na=ssrc:470638116 label:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN0\\r\\nm=video 51457 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.85.242\\r\\na=rtcp:52964 IN IP4 130.233.85.242\\r\\na=candidate:0 1 udp 2130706432 130.233.85.242 51457 typ host network_name en1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 50521 typ host network_name vnic0 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 udp 2130706432 10.211.55.2 63048 typ host network_name vnic1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 2 udp 2130706432 130.233.85.242 52964 typ host network_name en1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 50919 typ host network_name vnic0 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 udp 2130706432 10.211.55.2 58529 typ host network_name vnic1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 1 tcp 1694498816 130.233.85.242 57081 typ host network_name en1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57082 typ host network_name vnic0 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 1 tcp 1694498816 10.211.55.2 57083 typ host network_name vnic1 username kUOxF+pV4GqEWzOZ password WvnoU3KKQXo26W7RtukI5+Sb generation 0\\r\\na=candidate:0 2 tcp 1694498816 130.233.85.242 57084 typ host network_name en1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57085 typ host network_name vnic0 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=candidate:0 2 tcp 1694498816 10.211.55.2 57086 typ host network_name vnic1 username lDl80FTYoOL1FgZ9 password XnKZ2tQCJNoUJq5lIhAUx7ql generation 0\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:5ydJsA+FZVpAyqJMT/nW/UW+tcOmDvXJh/pPhNRe \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:470638116 cname:SQJxx7przmb8HM+Z\\r\\na=ssrc:470638116 mslabel:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN\\r\\na=ssrc:470638116 label:xZ8sv7utDYbGXN1HtwiolNbCTRYiBbQ8p9DN0\\r\\n",\n   "seq" : 2\n}\n', 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:38:28] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "leCYCyNr2Us74vziR+9dYETfB+QrWWDh",\n   "messageType" : "OK",\n   "offererSessionId" : "qkyG84fLV427kuuEwQz0i3KMES0WIcW5",\n   "seq" : 2\n}\n', 'to_who_id': '19', 'id': '9'}"
+130.233.85.242 - - [2012-05-31 16:38:43] "Socket.IO message: {'action': 'video_sdp', 'message': 'BYE', 'to_who_id': '9', 'id': '{{owner.id}}'}"
+130.233.85.242 - - [2012-05-31 16:38:49] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'pasa ', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+130.233.85.242 - - [2012-05-31 16:38:50] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'prim', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+
+SocketIOServer running on vr000m.ath.cx:80
+
+Joan Abello setting online
+Joan Abello setting offline
+deleting user...
+Joan Abello setting online
+Albert Abello Lozano setting online
+{'action': 'friend_online', 'message': '19', 'id': '9'}
+Joan Abello setting offline
+Albert Abello Lozano setting online
+Albert Abello Lozano setting offline
+Joan Abello setting online
+{'action': 'friend_online', 'message': '9', 'id': '19'}
+Joan Abello setting offline
+deleting user...
+{'action': 'friend_offline', 'message': '9', 'id': '19'}
+Albert Abello Lozano setting online
+Joan Abello setting online
+{'action': 'friend_online', 'message': '9', 'id': '19'}
+Albert Abello Lozano setting offline
+Albert Abello Lozano setting online
+{'action': 'friend_online', 'message': '19', 'id': '9'}
+Joan Abello setting online
+{'action': 'friend_online', 'message': '9', 'id': '19'}
+Joan Abello setting offline
+Albert Abello Lozano setting offline
+Joan Abello setting offline
+deleting user...
+{'action': 'friend_offline', 'message': '9', 'id': '19'}
+Albert Abello Lozano setting offline
+Traceback (most recent call last):
+  File "/home/rtcweb/public_html/prod/WebRTC/manage.py", line 14, in <module>
+    execute_manager(settings)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 459, in execute_manager
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 382, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 196, in run_from_argv
+    self.execute(*args, **options.__dict__)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 232, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/management/commands/runserver_socketio.py", line 60, in handle
+    client_end_all()
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/clients.py", line 43, in client_end_all
+    client_end(request, socket, context)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/clients.py", line 34, in client_end
+    del CLIENTS[socket.session.session_id]
+KeyError: '276461283798'
+130.233.85.242 - - [2012-05-31 18:14:17] "GET / HTTP/1.1" 200 1596 0.208384
+130.233.85.242 - - [2012-05-31 18:14:17] "GET /static/css/main.css HTTP/1.1" 200 1417 0.004774
+130.233.85.242 - - [2012-05-31 18:14:17] "GET /static/images/fb-login-button.png HTTP/1.1" 200 1810 0.000520
+130.233.85.242 - - [2012-05-31 18:14:17] "GET /static/images/Sign-in-with-Twitter-darker.png HTTP/1.1" 200 2519 0.000507
+130.233.85.242 - - [2012-05-31 18:14:17] "GET /favicon.ico HTTP/1.1" 404 2940 0.008098
+130.233.85.242 - - [2012-05-31 18:14:19] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.004903
+DEBUG:SocialAuth:Found user data for token AAAD*************************************************************************************************************
+130.233.85.242 - - [2012-05-31 18:14:23] "GET /social_auth/complete/facebook/?code=AQDEBqQi23iqpX8H2QaujDNJ8gd9EdglJikt3xglJU84B0k1OawfHaUehGJjzsT5g-7xPvgMicNeuAHPksFer3vkJAxIrnfsumXye92PRux58jX6rX-MZWNSvu8nlZ9JJ9F2sToSqy97TC5ugl6Eq2cbW0SiRTxc5JPLS9H0XXzucd1FVg7bg3trw33cToVi5KU HTTP/1.1" 302 191 3.444743
+130.233.85.242 - - [2012-05-31 18:14:23] "GET /login_error/ HTTP/1.1" 302 198 0.004133
+130.233.85.242 - - [2012-05-31 18:14:23] "GET /?next=/login_error/ HTTP/1.1" 200 1596 0.006462
+130.233.85.242 - - [2012-05-31 18:14:23] "GET /favicon.ico HTTP/1.1" 404 2940 0.005325
+130.233.85.242 - - [2012-05-31 18:14:26] "GET / HTTP/1.1" 200 1596 0.006540
+130.233.85.242 - - [2012-05-31 18:14:26] "GET /favicon.ico HTTP/1.1" 404 2940 0.005304
+130.233.85.242 - - [2012-05-31 18:14:29] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.003632
+DEBUG:SocialAuth:Found user data for token AAAD*************************************************************************************************************
+130.233.85.242 - - [2012-05-31 18:14:31] "GET /social_auth/complete/facebook/?code=AQDKWe8-Fn0MxD2K_GcV1aj-l234mcA_kDLLt0DGw6ATVT2kwavE9d1528UzUy2BmQCBHRHp6PusrhHhT2wsTySOmfqi6h6rvfycTm2fnGBFkHkMnTKYWAF_1xBms9AYRGYrHqbcxcSgCyv-ztzqdl_0WK7M927pW-NFg-33Chi-5a-iIzRUhepysQ3Hu9AHzBM HTTP/1.1" 302 191 2.306574
+130.233.85.242 - - [2012-05-31 18:14:31] "GET /login_error/ HTTP/1.1" 302 198 0.003528
+130.233.85.242 - - [2012-05-31 18:14:31] "GET /?next=/login_error/ HTTP/1.1" 200 1596 0.006121
+130.233.85.242 - - [2012-05-31 18:14:32] "GET /favicon.ico HTTP/1.1" 404 2940 0.005423
+130.233.85.242 - - [2012-05-31 18:14:59] "GET /social_auth/login/twitter/ HTTP/1.1" 302 464 0.909569
+130.233.85.242 - - [2012-05-31 18:15:03] "GET /social_auth/complete/twitter/?oauth_token=w25LLfGDcuWu6hUtuNvNq2SWgpyEmF6WMCUH600Aw&oauth_verifier=LIMMUC2dN40tNnXYSjZKiht37PDEmg2uT2LXoGpoIPM HTTP/1.1" 302 310 1.826994
+130.233.85.242 - - [2012-05-31 18:15:03] "GET / HTTP/1.1" 302 192 0.005142
+130.233.85.242 - - [2012-05-31 18:15:03] "GET /albertabello/ HTTP/1.1" 200 21287 0.024027
+130.233.85.242 - - [2012-05-31 18:15:04] "GET /static/images/blank_avatar.gif HTTP/1.1" 200 538 0.000656
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/greenlet.py", line 390, in run
+    result = self._run(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/socketio/server.py", line 49, in handle
+    handler.handle()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 180, in handle
+    result = self.handle_one_request()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 314, in handle_one_request
+    self.handle_one_response()
+  File "/usr/local/lib/python2.7/dist-packages/socketio/handler.py", line 58, in handle_one_response
+    self.handle_one_response(call_wsgi_app=False)
+TypeError: handle_one_response() got an unexpected keyword argument 'call_wsgi_app'
+<Greenlet at 0x7f3fc8051730: <bound method SocketIOServer.handle of <SocketIOServer at 0x2d1d250 fileno=4 address=195.148.127.98:80>>(<socket at 0x314bc90 fileno=[Errno 9] Bad file des, ('130.233.85.242', 61217))> failed with TypeError
+
+130.233.85.242 - - [2012-05-31 18:15:09] "GET /access/logout/ HTTP/1.1" 302 310 0.012845
+130.233.85.242 - - [2012-05-31 18:15:09] "GET / HTTP/1.1" 200 1596 0.006286
+130.233.85.242 - - [2012-05-31 18:15:09] "GET /favicon.ico HTTP/1.1" 404 2940 0.005275
+130.233.85.242 - - [2012-05-31 18:15:10] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.003680
+DEBUG:SocialAuth:Found user data for token AAAD*************************************************************************************************************
+130.233.85.242 - - [2012-05-31 18:15:12] "GET /social_auth/complete/facebook/?code=AQDLRcgHQ_Onpi6dPRAePo6kV_t43uLB-bm4cK5ff1hnZqhmrSdFd0g9LbGzuvy7H3gCu9VTm7A06Z5yzaaWEdRVnRfBuRwWvaeccEIdAS3icST4zl7zavOUlje1rLIGlm-xzveU1sXqroGI3IOPS9sVikhVWcBIoQ2P9qv1JcSZ0p1_3TtyI7hbvUFDwmvXafI HTTP/1.1" 302 191 1.571955
+130.233.85.242 - - [2012-05-31 18:15:12] "GET /login_error/ HTTP/1.1" 302 198 0.003609
+130.233.85.242 - - [2012-05-31 18:15:12] "GET /?next=/login_error/ HTTP/1.1" 200 1596 0.008066
+130.233.85.242 - - [2012-05-31 18:15:12] "GET /favicon.ico HTTP/1.1" 404 2940 0.005403
+130.233.85.242 - - [2012-05-31 18:15:16] "GET / HTTP/1.1" 200 1596 0.006363
+130.233.85.242 - - [2012-05-31 18:15:16] "GET /favicon.ico HTTP/1.1" 404 2940 0.005373
+130.233.85.242 - - [2012-05-31 18:16:10] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.003712
+DEBUG:SocialAuth:Found user data for token AAAD*************************************************************************************************************
+130.233.85.242 - - [2012-05-31 18:16:12] "GET /social_auth/complete/facebook/?code=AQB5feN4HXjRMBJmI-CVccd5Yi4_v6OyRTbHJATd8l6tIODBhgIhL8N44LdwmO4_imE_I0RBMlb4V788rwu5JcAdsuMsUaoZLu9opfXHXltMDtc9bLaJxcZOtHnJXTYIfdNAr9PfXDl5ru3iAmu7besh9jRZaZeq71sa0tbV6RvKzoWsKk4pIGKz1TODkH_7VF0 HTTP/1.1" 302 191 2.474981
+130.233.85.242 - - [2012-05-31 18:16:12] "GET /login_error/ HTTP/1.1" 302 198 0.003650
+130.233.85.242 - - [2012-05-31 18:16:12] "GET /?next=/login_error/ HTTP/1.1" 200 1596 0.006542
+130.233.85.242 - - [2012-05-31 18:16:12] "GET /favicon.ico HTTP/1.1" 404 2940 0.005322
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 89, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 55, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 438, in handle_one_response
+    self.run_application()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 424, in run_application
+    self.result = self.application(self.environ, self.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py", line 67, in __call__
+    return self.application(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 276, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 281, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 721, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 772, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 255, in build_absolute_uri
+    self.get_host(), self.path)
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+<SocketIOServer fileno=4 address=195.148.127.98:80>: Failed to handle request:
+  request = HEAD / HTTP/1.0 from ('208.113.249.254', 42975)
+  application = <django.contrib.staticfiles.handlers.StaticFilesHandler object at 0x2d1d090>
+
+208.113.249.254 - - [2012-05-31 21:05:57] "HEAD / HTTP/1.0" 500 161 0.023048
+201.63.36.90 - - [2012-06-01 13:11:41] "HEAD /manager/status HTTP/1.1" 301 193 0.000806
+130.233.84.19 - - [2012-06-01 22:12:59] "GET / HTTP/1.1" 302 189 0.005163
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /churreiro/ HTTP/1.1" 200 24630 5.594567
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000663
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 14457 0.000639
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/css/bootstrap.css HTTP/1.1" 200 99149 0.017475
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000582
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.034556
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 200 39979 0.000588
+130.233.84.19 - - [2012-06-01 22:13:04] "GET /static/js/dateformat.js HTTP/1.1" 200 4614 0.000522
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000558
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000516
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/bootstrap.js HTTP/1.1" 200 50263 0.000570
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/video_library.js HTTP/1.1" 200 7027 0.000577
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000507
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000628
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000537
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000554
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.001442
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/seriously.js HTTP/1.1" 200 75754 0.031438
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 200 2131 0.000555
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 200 1180 0.000512
+130.233.84.19 - - [2012-06-01 22:13:05] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 200 1370 0.000493
+130.233.84.19 - - [2012-06-01 22:13:06] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000567
+130.233.84.19 - - [2012-06-01 22:13:10] "Socket.IO subscribe: user-19"
+130.233.84.19 - - [2012-06-01 22:14:17] "GET / HTTP/1.1" 200 1596 0.004323
+130.233.84.19 - - [2012-06-01 22:14:17] "GET /static/css/main.css HTTP/1.1" 200 1417 0.000580
+130.233.84.19 - - [2012-06-01 22:14:17] "GET /static/images/fb-login-button.png HTTP/1.1" 200 1810 0.000545
+130.233.84.19 - - [2012-06-01 22:14:17] "GET /static/images/Sign-in-with-Twitter-darker.png HTTP/1.1" 200 2519 0.000484
+130.233.84.19 - - [2012-06-01 22:14:17] "GET /favicon.ico HTTP/1.1" 404 2940 0.006012
+130.233.84.19 - - [2012-06-01 22:14:19] "GET / HTTP/1.1" 200 1596 0.003833
+130.233.84.19 - - [2012-06-01 22:14:19] "GET /static/css/main.css HTTP/1.1" 304 90 0.000893
+130.233.84.19 - - [2012-06-01 22:14:19] "GET /static/images/fb-login-button.png HTTP/1.1" 304 91 0.000482
+130.233.84.19 - - [2012-06-01 22:14:19] "GET /static/images/Sign-in-with-Twitter-darker.png HTTP/1.1" 304 91 0.000410
+130.233.84.19 - - [2012-06-01 22:14:19] "GET /favicon.ico HTTP/1.1" 404 2940 0.005319
+130.233.84.19 - - [2012-06-01 22:14:21] "GET /social_auth/login/facebook/ HTTP/1.1" 302 345 0.001098
+DEBUG:SocialAuth:Found user data for token AAAD***********************************************************************************************************
+130.233.84.19 - - [2012-06-01 22:14:32] "GET /social_auth/complete/facebook/?code=AQDEqqNjUO55z1lpGhvyTK80olCQRkpfB0Vsu4tVReoxRW8WZaSE8CGp2LHs2xCZnrInEgKjVunsszasDvsz37UWYcZukv6o_9oz3SiPDJmF91fbbaZ8hqLsTbL3jp50OjX9qf8wZR8xP04mWUeSC4whkaEFLn4yK_Begqae6_a6XPnIfmQsrpLyamUFEuzTqag HTTP/1.1" 302 310 1.484451
+130.233.84.19 - - [2012-06-01 22:14:32] "GET / HTTP/1.1" 302 196 0.005209
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /albertabellotest/ HTTP/1.1" 200 22140 1.495254
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/css/colorbox.css HTTP/1.1" 200 5087 0.000660
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 200 14457 0.000529
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/css/autocomplete.css HTTP/1.1" 200 401 0.000512
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 200 39979 0.000570
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/dateformat.js HTTP/1.1" 200 4614 0.000502
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/dimensions.js HTTP/1.1" 200 3250 0.000515
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/BlobBuilder.js HTTP/1.1" 200 4639 0.000495
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/video_library.js HTTP/1.1" 200 7027 0.000523
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/autocomplete.js HTTP/1.1" 200 4517 0.000518
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/css/bootstrap.css HTTP/1.1" 200 99149 0.040587
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 200 94031 0.034161
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/Stats.js HTTP/1.1" 200 5213 0.000622
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 200 9679 0.000522
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/jquery.colorbox.js HTTP/1.1" 200 27976 0.000851
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/bootstrap.js HTTP/1.1" 200 50263 0.058649
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/socket.io.js HTTP/1.1" 200 64330 0.000890
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 200 2131 0.000613
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 200 1180 0.000526
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 200 1370 0.000552
+130.233.84.19 - - [2012-06-01 22:14:34] "GET /static/js/seriously.js HTTP/1.1" 200 75754 0.246371
+130.233.84.19 - - [2012-06-01 22:14:36] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 13976 0.000671
+130.233.84.19 - - [2012-06-01 22:14:36] "GET /static/css/images/overlay.png HTTP/1.1" 200 330 0.000580
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/greenlet.py", line 390, in run
+    result = self._run(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/socketio/server.py", line 49, in handle
+    handler.handle()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 180, in handle
+    result = self.handle_one_request()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 314, in handle_one_request
+    self.handle_one_response()
+  File "/usr/local/lib/python2.7/dist-packages/socketio/handler.py", line 58, in handle_one_response
+    self.handle_one_response(call_wsgi_app=False)
+TypeError: handle_one_response() got an unexpected keyword argument 'call_wsgi_app'
+<Greenlet at 0x3267eb0: <bound method SocketIOServer.handle of <SocketIOServer at 0x2d1d250 fileno=4 address=195.148.127.98:80>>(<socket at 0x32718d0 fileno=[Errno 9] Bad file des, ('130.233.84.19', 54052))> failed with TypeError
+
+130.233.84.19 - - [2012-06-01 22:14:41] "Socket.IO subscribe: user-9"
+130.233.84.19 - - [2012-06-01 22:14:41] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 13976 0.000707
+130.233.84.19 - - [2012-06-01 22:14:52] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8926 0.000644
+130.233.84.19 - - [2012-06-01 22:14:54] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'hola prim', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+130.233.84.19 - - [2012-06-01 22:14:54] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8926 0.000632
+130.233.84.19 - - [2012-06-01 22:15:00] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'uq soci', 'author': 'Joan:'}, 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:15:08] "Socket.IO message: {'action': 'video_invite', 'to_who_id': '9', 'id': '19'}"
+130.233.84.19 - - [2012-06-01 22:15:12] "Socket.IO message: {'action': 'video_invite_reply', 'message': True, 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:15:41] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "messageType" : "OFFER",\n   "offererSessionId" : "c+ZxfiliMb0Hl4qGJpC5624Cjxmfapt+",\n   "sdp" : "v=0\\r\\no=- 3957963761 1 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\na=group:BUNDLE audio video\\r\\nm=audio 59321 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp:59321 IN IP4 130.233.84.19\\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=ice-ufrag:ZVpAyqJMT/nW/UW+\\r\\na=ice-pwd:tcOmDvXJh/pPhNRedcWyymdw\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:D7LmfDa9J4lfdUL8W1F7TNJKcbuygaQuA429SJy2 \\r\\na=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:e9JctPUyEAmQrEw3y7hi2iRdhLfawKZC5ydJsA+F \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:3360494259 cname:zmb8HM+ZkeNcG3He\\r\\na=ssrc:3360494259 mslabel:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh\\r\\na=ssrc:3360494259 label:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh0\\r\\nm=video 59321 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp:59321 IN IP4 130.233.84.19\\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=ice-ufrag:ZVpAyqJMT/nW/UW+\\r\\na=ice-pwd:tcOmDvXJh/pPhNRedcWyymdw\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:EPK3CXo5sTLJSez0eM0VUfUkZ+1Pyi0MPTQtITP1 \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:3360494259 cname:zmb8HM+ZkeNcG3He\\r\\na=ssrc:3360494259 mslabel:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh\\r\\na=ssrc:3360494259 label:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh0\\r\\n",\n   "seq" : 1,\n   "tieBreaker" : 311877730\n}\n', 'to_who_id': '9', 'id': '19'}"
+130.233.84.19 - - [2012-06-01 22:15:50] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "NIhvlQd5LQDTbJieC/4xH0TzIW2qH4+O",\n   "messageType" : "ANSWER",\n   "offererSessionId" : "c+ZxfiliMb0Hl4qGJpC5624Cjxmfapt+",\n   "sdp" : "v=0\\r\\no=- 3957963761 1 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\na=group:BUNDLE audio video\\r\\nm=audio 51225 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 51225 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 57760 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 49414 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54096 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54097 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54098 typ host generation 59205208\\r\\na=ice-ufrag:TNJKcbuygaQuA429\\r\\na=ice-pwd:SJy2e9JctPUyEAmQrEw3y7hi\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:zmb8HM+ZkeNcG3HezSNID7LmfDa9J4lfdUL8W1F7 \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\nm=video 51225 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 51225 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 57760 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 49414 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54096 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54097 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54098 typ host generation 59205208\\r\\na=ice-ufrag:TNJKcbuygaQuA429\\r\\na=ice-pwd:SJy2e9JctPUyEAmQrEw3y7hi\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:2iRdhLfawKZC5ydJsA+FZVpAyqJMT/nW/UW+tcOm \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\n",\n   "seq" : 1\n}\n', 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:15:50] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "NIhvlQd5LQDTbJieC/4xH0TzIW2qH4+O",\n   "messageType" : "OK",\n   "offererSessionId" : "c+ZxfiliMb0Hl4qGJpC5624Cjxmfapt+",\n   "seq" : 1\n}\n', 'to_who_id': '9', 'id': '19'}"
+130.233.84.19 - - [2012-06-01 22:15:50] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "c+ZxfiliMb0Hl4qGJpC5624Cjxmfapt+",\n   "messageType" : "OFFER",\n   "offererSessionId" : "NIhvlQd5LQDTbJieC/4xH0TzIW2qH4+O",\n   "sdp" : "v=0\\r\\no=- 3957963761 2 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\na=group:BUNDLE audio video\\r\\nm=audio 51225 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 51225 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 57760 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 49414 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54096 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54097 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54098 typ host generation 59205208\\r\\na=ice-ufrag:TNJKcbuygaQuA429\\r\\na=ice-pwd:SJy2e9JctPUyEAmQrEw3y7hi\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:zmb8HM+ZkeNcG3HezSNID7LmfDa9J4lfdUL8W1F7 \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:1255262422 cname:dFkwDYem0NlkF3N6\\r\\na=ssrc:1255262422 mslabel:hlCY2RjcGVLCaKlI2SAoXKZtN3CTaQPHLngh\\r\\na=ssrc:1255262422 label:hlCY2RjcGVLCaKlI2SAoXKZtN3CTaQPHLngh0\\r\\nm=video 51225 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp: IN IP4 \\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 51225 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 57760 typ host generation 59205208\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 49414 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54096 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54097 typ host generation 59205208\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54098 typ host generation 59205208\\r\\na=ice-ufrag:TNJKcbuygaQuA429\\r\\na=ice-pwd:SJy2e9JctPUyEAmQrEw3y7hi\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:2iRdhLfawKZC5ydJsA+FZVpAyqJMT/nW/UW+tcOm \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:1255262422 cname:dFkwDYem0NlkF3N6\\r\\na=ssrc:1255262422 mslabel:hlCY2RjcGVLCaKlI2SAoXKZtN3CTaQPHLngh\\r\\na=ssrc:1255262422 label:hlCY2RjcGVLCaKlI2SAoXKZtN3CTaQPHLngh0\\r\\n",\n   "seq" : 2,\n   "tieBreaker" : 1467303061\n}\n', 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:15:50] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "c+ZxfiliMb0Hl4qGJpC5624Cjxmfapt+",\n   "messageType" : "ANSWER",\n   "offererSessionId" : "NIhvlQd5LQDTbJieC/4xH0TzIW2qH4+O",\n   "sdp" : "v=0\\r\\no=- 3957963761 2 IN IP4 127.0.0.1\\r\\ns=\\r\\nt=0 0\\r\\na=group:BUNDLE audio video\\r\\nm=audio 59321 RTP/SAVPF 103 104 0 8 106 105 13 126\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp:59321 IN IP4 130.233.84.19\\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=ice-ufrag:ZVpAyqJMT/nW/UW+\\r\\na=ice-pwd:tcOmDvXJh/pPhNRedcWyymdw\\r\\na=mid:audio\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:D7LmfDa9J4lfdUL8W1F7TNJKcbuygaQuA429SJy2 \\r\\na=rtpmap:103 ISAC/16000\\r\\na=rtpmap:104 ISAC/32000\\r\\na=rtpmap:0 PCMU/8000\\r\\na=rtpmap:8 PCMA/8000\\r\\na=rtpmap:106 CN/32000\\r\\na=rtpmap:105 CN/16000\\r\\na=rtpmap:13 CN/8000\\r\\na=rtpmap:126 telephone-event/8000\\r\\na=ssrc:3360494259 cname:zmb8HM+ZkeNcG3He\\r\\na=ssrc:3360494259 mslabel:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh\\r\\na=ssrc:3360494259 label:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh0\\r\\nm=video 59321 RTP/SAVPF 100 101 102\\r\\nc=IN IP4 130.233.84.19\\r\\na=rtcp:59321 IN IP4 130.233.84.19\\r\\na=candidate:0 1 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 130.233.84.19 59321 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 62421 typ host generation 0\\r\\na=candidate:0 1 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 2 udp 2130714367 10.211.55.2 65459 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 130.233.84.19 54085 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54086 typ host generation 0\\r\\na=candidate:0 1 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=candidate:0 2 tcp 1694506751 10.211.55.2 54087 typ host generation 0\\r\\na=ice-ufrag:ZVpAyqJMT/nW/UW+\\r\\na=ice-pwd:tcOmDvXJh/pPhNRedcWyymdw\\r\\na=mid:video\\r\\na=rtcp-mux\\r\\na=crypto:0 AES_CM_128_HMAC_SHA1_80 inline:EPK3CXo5sTLJSez0eM0VUfUkZ+1Pyi0MPTQtITP1 \\r\\na=rtpmap:100 VP8/90000\\r\\na=rtpmap:101 red/90000\\r\\na=rtpmap:102 ulpfec/90000\\r\\na=ssrc:3360494259 cname:zmb8HM+ZkeNcG3He\\r\\na=ssrc:3360494259 mslabel:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh\\r\\na=ssrc:3360494259 label:YW9l7lZ0W78NzBJO2T5UtCzuwljJx5wBpElh0\\r\\n",\n   "seq" : 2\n}\n', 'to_who_id': '9', 'id': '19'}"
+130.233.84.19 - - [2012-06-01 22:15:50] "Socket.IO message: {'action': 'video_sdp', 'message': 'SDP\n{\n   "answererSessionId" : "c+ZxfiliMb0Hl4qGJpC5624Cjxmfapt+",\n   "messageType" : "OK",\n   "offererSessionId" : "NIhvlQd5LQDTbJieC/4xH0TzIW2qH4+O",\n   "seq" : 2\n}\n', 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:17:21] "Socket.IO message: {'action': 'video_sdp', 'message': 'BYE', 'to_who_id': '9', 'id': '{{owner.id}}'}"
+130.233.84.19 - - [2012-06-01 22:23:13] "GET / HTTP/1.1" 302 189 0.005264
+130.233.84.19 - - [2012-06-01 22:23:16] "GET /churreiro/ HTTP/1.1" 200 24630 2.451667
+130.233.84.19 - - [2012-06-01 22:23:18] "Socket.IO subscribe: user-19"
+130.233.84.19 - - [2012-06-01 22:23:22] "GET / HTTP/1.1" 302 196 0.004556
+130.233.84.19 - - [2012-06-01 22:23:23] "GET /albertabellotest/ HTTP/1.1" 200 22140 1.072748
+130.233.84.19 - - [2012-06-01 22:23:24] "Socket.IO subscribe: user-9"
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /churreiro/ HTTP/1.1" 200 24648 1.979155
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000578
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000414
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000405
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000427
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000437
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000444
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000408
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000428
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000444
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000426
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000416
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000410
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000417
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000417
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000446
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000638
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000421
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000423
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000418
+130.233.84.19 - - [2012-06-01 22:24:52] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000462
+130.233.84.19 - - [2012-06-01 22:24:54] "Socket.IO subscribe: user-19"
+130.233.84.19 - - [2012-06-01 22:24:54] "GET /static/images/favicon.ico HTTP/1.1" 200 1302 0.000637
+130.233.84.19 - - [2012-06-01 22:25:00] "GET /churreiro/ HTTP/1.1" 200 24648 2.835042
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /albertabellotest/ HTTP/1.1" 200 22140 1.071699
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000475
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000365
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000360
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000353
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000352
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000347
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000517
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000407
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000398
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000403
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000503
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000414
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000478
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000484
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000416
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000447
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000408
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000449
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000460
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000455
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000422
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000426
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000873
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000472
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000608
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000657
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000547
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000473
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000520
+130.233.84.19 - - [2012-06-01 22:25:01] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000478
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.005357
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000446
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000411
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000643
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000450
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000435
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000431
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000408
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000461
+130.233.84.19 - - [2012-06-01 22:25:02] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000410
+130.233.84.19 - - [2012-06-01 22:25:04] "Socket.IO subscribe: user-19"
+130.233.84.19 - - [2012-06-01 22:25:04] "Socket.IO subscribe: user-9"
+130.233.84.19 - - [2012-06-01 22:25:06] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'adsf', 'author': 'Albert:'}, 'to_who_id': '9', 'id': '19'}"
+130.233.84.19 - - [2012-06-01 22:25:09] "Socket.IO message: {'action': 'chat_message', 'message': {'text': 'qwer', 'author': 'Joan:'}, 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:25:11] "Socket.IO message: {'action': 'video_invite', 'to_who_id': '19', 'id': '9'}"
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /churreiro/ HTTP/1.1" 200 24648 1.900147
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/css/colorbox.css HTTP/1.1" 304 90 0.000589
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/css/bootstrap.css HTTP/1.1" 304 90 0.000440
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/jquery-1.7.1.min.js HTTP/1.1" 304 104 0.000462
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/css/bootstrap-responsive.css HTTP/1.1" 304 90 0.000415
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/css/autocomplete.css HTTP/1.1" 304 90 0.000447
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/knockout-2.0.0.js HTTP/1.1" 304 104 0.000402
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/dateformat.js HTTP/1.1" 304 104 0.000448
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/dimensions.js HTTP/1.1" 304 104 0.000436
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/BlobBuilder.js HTTP/1.1" 304 104 0.000409
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/bootstrap.js HTTP/1.1" 304 104 0.000400
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/video_library.js HTTP/1.1" 304 104 0.000422
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/autocomplete.js HTTP/1.1" 304 104 0.000430
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/Stats.js HTTP/1.1" 304 104 0.000401
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/jquery.colorbox-min.js HTTP/1.1" 304 104 0.000425
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/jquery.colorbox.js HTTP/1.1" 304 104 0.000431
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/socket.io.js HTTP/1.1" 304 104 0.000682
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/seriously.js HTTP/1.1" 304 104 0.000440
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/effects/seriously.nightvision.js HTTP/1.1" 304 104 0.000410
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/effects/seriously.vignette.js HTTP/1.1" 304 104 0.000423
+130.233.84.19 - - [2012-06-01 22:25:25] "GET /static/js/effects/seriously.sepia.js HTTP/1.1" 304 104 0.000447
+130.233.84.19 - - [2012-06-01 22:25:27] "Socket.IO subscribe: user-19"
+130.233.84.19 - - [2012-06-01 22:36:46] "GET / HTTP/1.1" 302 189 0.005160
+130.233.84.19 - - [2012-06-01 22:36:48] "GET /churreiro/ HTTP/1.1" 200 24648 2.122790
+130.233.84.19 - - [2012-06-01 22:36:51] "Socket.IO subscribe: user-19"
+130.233.84.19 - - [2012-06-01 22:36:56] "GET /favicon.ico HTTP/1.1" 404 2940 0.005387
+109.123.118.162 - - [2012-06-02 15:41:52] "GET /user/soapCaller.bs HTTP/1.1" 404 4441 0.007327
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 89, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 55, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 438, in handle_one_response
+    self.run_application()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 424, in run_application
+    self.result = self.application(self.environ, self.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py", line 67, in __call__
+    return self.application(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 276, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 281, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 721, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 772, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 255, in build_absolute_uri
+    self.get_host(), self.path)
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+<SocketIOServer fileno=4 address=195.148.127.98:80>: Failed to handle request:
+  request = HEAD / HTTP/1.0 from ('80.237.184.75', 43395)
+  application = <django.contrib.staticfiles.handlers.StaticFilesHandler object at 0x2d1d090>
+
+80.237.184.75 - - [2012-06-03 17:41:17] "HEAD / HTTP/1.0" 500 161 0.020878
+ERROR:django.request:Internal Server Error: /manager/html
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 89, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 55, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 438, in handle_one_response
+    self.run_application()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 424, in run_application
+    self.result = self.application(self.environ, self.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py", line 67, in __call__
+    return self.application(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 276, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 281, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 721, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 772, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 255, in build_absolute_uri
+    self.get_host(), self.path)
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+<SocketIOServer fileno=4 address=195.148.127.98:80>: Failed to handle request:
+  request = HEAD /manager/html HTTP/1.0 from ('69.64.64.90', 47867)
+  application = <django.contrib.staticfiles.handlers.StaticFilesHandler object at 0x2d1d090>
+
+69.64.64.90 - - [2012-06-04 01:29:53] "HEAD /manager/html HTTP/1.0" 500 161 0.023469
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 89, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 55, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 438, in handle_one_response
+    self.run_application()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 424, in run_application
+    self.result = self.application(self.environ, self.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/handlers.py", line 67, in __call__
+    return self.application(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 276, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 281, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 721, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 772, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 255, in build_absolute_uri
+    self.get_host(), self.path)
+  File "/usr/local/lib/python2.7/dist-packages/django/http/__init__.py", line 211, in get_host
+    host = self.META['SERVER_NAME']
+KeyError: 'SERVER_NAME'
+<SocketIOServer fileno=4 address=195.148.127.98:80>: Failed to handle request:
+  request = HEAD / HTTP/1.0 from ('61.164.68.150', 15056)
+  application = <django.contrib.staticfiles.handlers.StaticFilesHandler object at 0x2d1d090>
+
+61.164.68.150 - - [2012-06-04 03:03:17] "HEAD / HTTP/1.0" 500 161 0.022048
+186.224.240.53 - - [2012-06-04 04:13:30] "GET /user/soapCaller.bs HTTP/1.1" 404 4441 0.007344
+
+SocketIOServer running on vr000m.ath.cx:80
+
+Traceback (most recent call last):
+  File "/home/rtcweb/public_html/prod/WebRTC/manage.py", line 14, in <module>
+    execute_manager(settings)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 459, in execute_manager
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 382, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 196, in run_from_argv
+    self.execute(*args, **options.__dict__)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 232, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/management/commands/runserver_socketio.py", line 58, in handle
+    server.serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 188, in serve_forever
+    self.start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 146, in start
+    self.pre_start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 552, in pre_start
+    StreamServer.pre_start(self)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/server.py", line 90, in pre_start
+    BaseServer.pre_start(self)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 136, in pre_start
+    self.socket = _tcp_listener(self.address, backlog=self.backlog, reuse_addr=self.reuse_addr)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 206, in _tcp_listener
+    sock.bind(address)
+socket.error: [Errno 13] Permission denied: ('vr000m.ath.cx', 80)
+
+SocketIOServer running on vr000m.ath.cx:80
+
+Traceback (most recent call last):
+  File "/home/rtcweb/public_html/prod/WebRTC/manage.py", line 14, in <module>
+    execute_manager(settings)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 459, in execute_manager
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 382, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 196, in run_from_argv
+    self.execute(*args, **options.__dict__)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 232, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/management/commands/runserver_socketio.py", line 58, in handle
+    server.serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 188, in serve_forever
+    self.start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 146, in start
+    self.pre_start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 552, in pre_start
+    StreamServer.pre_start(self)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/server.py", line 90, in pre_start
+    BaseServer.pre_start(self)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 136, in pre_start
+    self.socket = _tcp_listener(self.address, backlog=self.backlog, reuse_addr=self.reuse_addr)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 206, in _tcp_listener
+    sock.bind(address)
+socket.error: [Errno 13] Permission denied: ('vr000m.ath.cx', 80)
+
+SocketIOServer running on vr000m.ath.cx:80
+
+Traceback (most recent call last):
+  File "/home/rtcweb/public_html/prod/WebRTC/manage.py", line 14, in <module>
+    execute_manager(settings)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 459, in execute_manager
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 382, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 196, in run_from_argv
+    self.execute(*args, **options.__dict__)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 232, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django_socketio/management/commands/runserver_socketio.py", line 58, in handle
+    server.serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 188, in serve_forever
+    self.start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 146, in start
+    self.pre_start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/pywsgi.py", line 552, in pre_start
+    StreamServer.pre_start(self)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/server.py", line 90, in pre_start
+    BaseServer.pre_start(self)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 136, in pre_start
+    self.socket = _tcp_listener(self.address, backlog=self.backlog, reuse_addr=self.reuse_addr)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 206, in _tcp_listener
+    sock.bind(address)
+socket.error: [Errno 13] Permission denied: ('vr000m.ath.cx', 80)

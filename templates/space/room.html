@@ -1,0 +1,66 @@
+{% extends "view_template.html" %}
+
+{% block title %}{{ owner.first_name }} {{ owner.last_name }}{% endblock %}
+
+{% block body %}
+{% block extra_js %}
+<link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/chat.css">
+<script>
+var socket;
+var started = false;
+var caller = false;
+var receiver = false;
+</script>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+<script src="{{ STATIC_URL }}js/chat.js"></script>
+<script src="{{ STATIC_URL }}js/video.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.colorbox.js"></script>
+<script>
+window.room = {{ room.id }};
+window.name = "{{ owner.first_name }} {{ owner.last_name }}";
+</script>
+
+{% endblock %}
+
+{% block main %}
+<div style="visibility: hidden;">
+  <div id="invite">
+    <div id="callerdiv">
+    </div>
+  <button type="submit" class="positive" onclick="answer();">
+    Answer
+  </button>
+  <button type="submit" class="regular" onclick="reject();">
+    Reject  
+  </button>
+  </div>
+</div>
+
+
+<input type="hidden" id="name" name="variable" value="{{ owner.first_name }} {{ owner.last_name }}">
+<div id="messages-box">
+	<ul id="messages">
+    	<script type="text/x-jquery-tmpl"><li class="${action}">(${time}) ${name}: ${message}</li></script>
+	</ul>
+</div>
+<ul id="users">
+  <div>
+    <script type="text/x-jquery-tmpl"><li id="user-${id}" style="margin-top: 5px;">${name}</li></script>
+    <li><video width="95%" height="95%" id="remoteVideo" autoplay="autoplay"></video></li>
+    <li><video width="40%" height="40%" id="localVideo" autoplay="autoplay" onclick="onClick()"></video></li>
+  <div id="footer">
+  <input type="button" id="video" value="Video" style="margin-top: 5px;" onclick="toinvite();">
+  </div>
+  </div>
+</ul>
+{% endblock %}
+{% block form %}
+<form>
+    <input type="text" id="message" name="message">
+    <input type="submit" id="submit" value="Send">
+    <input type="button" id="leave" value="Leave">
+</form>
+{% endblock %}
+{% endblock %}

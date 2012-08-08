@@ -1,0 +1,70 @@
+#body{height:800px}
+
+
+#main {
+padding-bottom:100px;
+}
+
+input {
+border:1px solid #999; 
+padding:10px; 
+border-radius:5px;
+}
+
+#messages {
+	text-align:left;
+	margin-top:10px;
+}
+
+#message, #name {width:600px; margin:20px 0 20px 20px;}
+#submit, #leave {cursor:pointer; margin-left:10px; padding:10px 30px;}
+
+ul {
+margin:0; 
+padding:0; 
+list-style-type:none;
+}
+
+h1, p, li {
+margin-left:10px;
+}
+
+#users {
+position:absolute; 
+right:0; 
+top:0; 
+width:500px;
+margin-right:100px;
+/*background:#eee;*/ 
+display:none; 
+overflow:hidden;
+/*border-left:1px solid #ccc;*/
+}
+
+.room {float:left;}
+form label {margin-left:10px;}
+.system {font-weight:bold; color:#f00;}
+
+#messages-box{
+height:500px;
+overflow-y: scroll;
+overflow-x: hidden;
+margin-right:700px;
+margin-left:100px;
+border-left:1px solid;
+border-bottom:1px solid;
+border-right:1px solid;
+border-top:1px solid;
+}
+
+#remoteVideo {
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 2s; max-height: 300px;
+}
+
+#localVideo {
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 2s; max-height: 100px;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" type="image/x-icon" href="{{ STATIC_URL }}images/favicon.ico" />
+<script src="{{ STATIC_URL }}js/jquery-1.7.1.min.js" type="text/javascript"></script>
+{% block js_includes %}{% endblock %}
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/colorbox.css">
+<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css">
+<style>
+footer.container.navbar-fixed-top {
+    top: auto;
+    bottom: 0;
+}
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  height: 100%;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+.input-medium {
+    width: 169px;
+}
+ul#chat{
+    background-color:white;
+    min-height:300px;
+    max-height:300px;
+    margin-left:0px;
+    padding-left:0px;
+    overflow: scroll;
+    border: 1px solid #CCC;
+}
+.message{
+    border: 1px dotted #CCC;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left:0px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-bottom:0px;
+    background-color: white;
+    font-size: 12px;
+}
+localVideo_call {
+    -webkit-transition: opacity 2s;
+    -webkit-transform: scale(-1, 1);
+    opacity: 1;
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+remoteVideo_call {
+    -webkit-transition: opacity 2s;
+    -webkit-transform: scale(-1, 1);
+    opacity: 1;
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+localVideo {
+    spacing: 4px;
+    float: left;
+    width: 50%;
+    -webkit-transform: scale(-1, 1);
+}
+seriouslyVideo {
+    spacing: 4px;
+    float: left;
+    width: 50%;
+    -webkit-transform: scale(-1, 1);
+}
+</style>
+
+<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-responsive.css">
+<link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/autocomplete.css">
+<script type="text/javascript" src="{{ STATIC_URL }}js/knockout-2.0.0.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/dateformat.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://chat.nodebootcamp.com/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/dimensions.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/BlobBuilder.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/video_library.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/autocomplete.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/Stats.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.colorbox.js"></script>
+<script>
+    var showForm = function() {
+        $('form').slideDown(function() {
+            $('form input[type="text"]').focus();
+        });
+    };
+</script>
+
+{% load socketio_tags %}
+{% socketio %}
+
+<script>
+    var socket = new io.Socket();
+    socket.connect();
+    socket.on('connect', function() {
+    socket.subscribe('user-{{owner.id}}');
+    });
+</script>
+
+<title>{% block title %}{% endblock %}</title>
+
+<meta property="og:title" content="WebRTC" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="" />
+<meta property="fb:admins" content="100001640021127" />
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+    {% include "login_bar.html" %}
+</div>
+    
+<div class="container-fluid">
+    <div class="row-fluid">
+	{% block body %}{% endblock %}
+    </div>
+    
+    {% if user.username == owner.username %}
+    <footer class="container navbar navbar-fixed-top">
+    <hr>
+	<div class="row">
+	    <div class="span12">
+		<ul class="pager">
+		    WebRTC project.
+		    <br><a href="change_pass/">Change your password?</a></br>
+		</ul>
+	    </div>
+	</div>
+    </footer>
+    {% else %}
+    <footer class="container navbar navbar-fixed-top">
+    <hr>
+	<div class="row">
+	    <div class="span12">
+		<ul class="pager">
+		    WebRTC project.
+		</ul>
+	    </div>
+	</div>
+    </footer>
+    {% endif %}
+</div><!--/.fluid-container-->
+
+</body>
+</html>

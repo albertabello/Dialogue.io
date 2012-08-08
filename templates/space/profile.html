@@ -1,0 +1,653 @@
+{% extends "view_template.html" %}
+{% block title %}{{owner.first_name}} {{owner.last_name}}{% endblock %}
+
+{% block body %}
+{% block extra_js %}
+<style>
+.videostream, #remoteVideo_call {
+  background: rgba(255,255,255,0.5);
+}
+.videostream, #localVideo_call {
+  background: rgba(255,255,255,0.5);
+}
+.blur {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.brightness {
+  -webkit-filter: brightness(5);
+  -moz-filter: brightness(5);
+  -o-filter: brightness(5);
+  -ms-filter: brightness(5);
+  filter: brightness(5);
+}
+.contrast {
+  -webkit-filter: contrast(8);
+  -moz-filter: contrast(8);
+  -o-filter: contrast(8);
+  -ms-filter: contrast(8);
+  filter: contrast(8);
+}
+.hue-rotate {
+  -webkit-filter: hue-rotate(90deg);
+  -moz-filter: hue-rotate(90deg);
+  -o-filter: hue-rotate(90deg);
+  -ms-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+}
+.hue-rotate2 {
+  -webkit-filter: hue-rotate(180deg);
+  -moz-filter: hue-rotate(180deg);
+  -o-filter: hue-rotate(180deg);
+  -ms-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+.hue-rotate3 {
+  -webkit-filter: hue-rotate(270deg);
+  -moz-filter: hue-rotate(270deg);
+  -o-filter: hue-rotate(270deg);
+  -ms-filter: hue-rotate(270deg);
+  filter: hue-rotate(270deg);
+}
+.saturate {
+  -webkit-filter: saturate(10);
+  -moz-filter: saturate(10);
+  -o-filter: saturate(10);
+  -ms-filter: saturate(10);
+  filter: saturate(10);
+}
+.grayscale {
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.sepia {
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -ms-filter: sepia(1);
+  filter: sepia(1);
+}
+.invert {
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1)
+  -o-filter: invert(1)
+  -ms-filter: invert(1)
+  filter: invert(1)
+}
+</style>
+
+<script type="text/javascript">
+	/* Not working properly yet and not accurate
+	window.addEventListener('online', function(e) {
+	  // Re-sync data with server.
+	  			socket.send({"id": "{{owner.id}}", action: 'online'});
+	  			console.log("online");
+	}, false);
+	window.addEventListener('offline', function(e) {
+	  // Queue up events for server.
+				socket.send({"id": "{{owner.id}}", action: 'offline'});
+	  			console.log("offline");
+	}, false);
+	*/
+	window.id = "{{ owner.id }}";
+	var friend_table = new Array();
+	var located_friend = null;
+	var caller =false, started=false;
+	$(function(){
+		var counter=0;
+		//At load of the page
+		{% for friend in friends_local %}
+			friend_obj = new Object();
+			friend_obj.id="{{friend.id}}";
+			friend_obj.name="{{friend.name}}";
+			friend_table[counter] = friend_obj;
+			//friend_table[counter][1]="{{friend.id}}";
+			//console.log(friend_table[counter][1]);
+			counter=counter+1;
+		{% endfor %}
+		
+		$('#chat-input').keypress(function(e) {
+			if(e.which == 13) {
+				e.preventDefault();
+				if (located_friend!=null){
+					if($(this).val().length > 0){ //If something is written
+						$(this).blur();
+						var message = $('#chat-input').val();
+						$('#chat-input').val('');
+						message={"text":message,"author":"{{owner.first_name}}:"};
+						chatModel.addMessage(message);
+						$('#chat').scrollTop(9000);
+						json = {"id":"{{owner.id}}","action":"chat_message", "to_who_id":located_friend.id, "message":message};
+						socket.send(json);
+						$(this).val(null);
+						$(this).focus();
+					}
+				}
+			}
+		});
+	});
+
+	var friends_status,counter=0, item;
+	var messaged = function(data){
+		switch(data.action) {
+			case 'friend_offline':
+				//console.log(data.message);
+				item = data.message+"_icon";
+				document.getElementById(item).setAttribute("class","");
+				item = data.message+"_label";
+				document.getElementById(item).setAttribute("onclick","select(value);");
+				document.getElementById(item).title="This f is offline.";
+				break;
+			case 'friend_online':
+				//console.log(data.message);
+				item = data.message+"_icon";
+				document.getElementById(item).setAttribute("class","icon-user");
+				item = data.message+"_label";
+				document.getElementById(item).setAttribute("onclick","select(value);");
+				document.getElementById(item).title="This friend is online.";
+				break;
+			case 'chat_message':
+				if (located_friend == null) {
+					select(data.from);
+				}
+				else {
+					if (located_friend.id != data.from) {
+						select(data.from);
+					}
+				}
+				chatModel.addMessage(data.message);
+				$('#chat').scrollTop(9000);
+				break;
+			case 'video_invite':
+				document.getElementById('video_alert').setAttribute("style","display:auto;");
+				break;
+			case 'video_invite_accept':
+				console.log(data.message);
+				if (data.message == true) {
+				    setStatus("Call accepted");
+				    console.log('Call answered');
+				    //initialize();
+				    //maybeStart();
+				    Meeting.Call();
+				}
+				else if (data.message == "False") {
+				    setStatus("Call rejected");
+				    console.log('Call rejected');
+				    onHangup();
+				}
+				else {
+				    setStatus("Call error");
+				    console.log('Call error');
+				}
+				break;
+			case 'offer':
+				//console.log(data.message);
+				console.log("Got video SDP parameters from caller");
+				setStatus("<input type=\"button\" id=\"hangup\" value=\"Hang up\" onclick=\"onHangup()\" />");
+				Meeting.Message(data);
+				//setTimeout(onChannelMessage(data.message),3000);
+				break;
+			case 'answer':
+				console.log("Got video SDP parameters from caller");
+				setStatus("<input type=\"button\" id=\"hangup\" value=\"Hang up\" onclick=\"onHangup()\" />");
+				Meeting.Message(data);
+				break;
+			case 'candidate':
+				console.log("Got video SDP parameters from caller");
+				setStatus("<input type=\"button\" id=\"hangup\" value=\"Hang up\" onclick=\"onHangup()\" />");
+				Meeting.Message(data);
+				break;
+			case 'video_sdp':
+				console.log("Got video SDP parameters from caller");
+				setStatus("<input type=\"button\" id=\"hangup\" value=\"Hang up\" onclick=\"onHangup()\" />");
+				Meeting.Message(data.message);
+				break;
+			case 'effect':
+				console.log("Changing filter of...");
+				var el = document.getElementById("remoteVideo_call");
+				el.className = '';
+				if (data.effect) {
+					el.classList.add(data.effect);
+				}
+				break;
+		}
+	}
+	
+	function confirmEmail(){
+		if(confirm('You can now send an alert email to the user :D')) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	function select(friend){
+		//friend = friend.toString();
+		counter=0;
+		while (friend_table[counter]!=null) {
+			if (friend_table[counter].id==friend) {
+				located_friend=friend_table[counter];
+			}
+			counter = counter+1;
+		}
+		item = located_friend.id+'_label';
+		document.getElementById(item).setAttribute("class","active");
+		item = located_friend.id+'_icon';
+		document.getElementById(item).setAttribute("class","icon-user icon-white");
+		message={text: located_friend.name+" joined"};
+		chatModel.addMessage(message)
+	}
+	
+	function video_invite(){
+		if (located_friend != null){
+			socket.send({"id": "{{owner.id}}", action: 'video_invite', "to_who_id": located_friend.id});
+			caller=true;
+			//initialize();
+			//getUserMedia();
+			//For the old API deprecated must uncomment
+			//Meeting.Call();
+			setStatus("Waiting for answer...");
+		}
+	}
+
+	function video_invite_reply(option){
+		document.getElementById('video_alert').setAttribute("style","display:none;");
+		if (option == true){
+			socket.send({"id": "{{owner.id}}", action: 'video_invite_reply', "message": option, "to_who_id": located_friend.id});
+			//Start listening for the incomming call
+			Meeting.Answer();
+		}
+		else {
+			socket.send({"id": "{{owner.id}}", action: 'video_invite_reply', "message": "False", "to_who_id": located_friend.id});
+		}
+	}
+	
+	
+	/**function effect_video(){
+		document.getElementById("localVideo_call").style.display = "none";
+		var seriously_call, s_src_2, s_tgt_2;
+		seriously_call = new Seriously();
+		s_src_2 = seriously_call.source('#localVideo_call');
+		s_tgt_2 = seriously_call.target('#localSeriously_call');
+		s_tgt_2.source = s_src_2;
+		
+		var x_2 = seriously_call.effect('nightvision');
+		x_2.source = s_src_2;
+		s_tgt_2.source = x_2;
+		seriously_call.go();
+	}**/
+	
+	socket.on('message',messaged);
+
+</script>
+{% endblock %}
+
+<script src="{{STATIC_URL}}js/seriously.js"></script>
+<script src="{{STATIC_URL}}js/effects/seriously.nightvision.js"></script>
+<script src="{{STATIC_URL}}js/effects/seriously.vignette.js"></script>
+<script src="{{STATIC_URL}}js/effects/seriously.sepia.js"></script>
+
+<script type="text/javascript">
+	var localVideo, seriouslyVideo;
+  	var localStream;
+	var blob;
+	
+	function init() {
+		try {
+			navigator.webkitGetUserMedia({audio:true, video:true}, onSuccess,
+					       onFail);
+			console.log("Requested access to local media with new syntax.");
+			localVideo = document.getElementById("localVideo");
+			seriouslyVideo = document.getElementById("seriouslyVideo");
+		} catch (e) {
+		  try {
+		    navigator.webkitGetUserMedia("video,audio", onSuccess,
+						 onFail);
+		    console.log("Requested access to local media with old syntax.");
+		  } catch (e) {
+		    alert("webkitGetUserMedia() failed. Is the MediaStream flag enabled in about:flags?");
+		    console.log("webkitGetUserMedia failed with exception: " + e.message);
+		  }
+		}
+	}
+
+	function onSuccess(stream) {
+		console.log("User has granted access to local media.");
+		var url = webkitURL.createObjectURL(stream);
+		localVideo.style.opacity = 1;
+		localVideo.src = url;
+		localStream = stream;
+		seriouslyVideo.width=document.getElementById("localVideo").clientWidth;
+		//seriouslyVideo.height="399px";
+		//hardcode: 530x399 px
+		document.getElementById("localVideo").style.display = "none";
+		
+		var seriously, s_src, s_tgt;
+		seriously = new Seriously();
+		s_src = seriously.source('#localVideo');
+		s_tgt = seriously.target('#seriouslyVideo');
+		s_tgt.source = s_src;
+		
+		var x = seriously.effect('nightvision');
+		x.source = s_src;
+		s_tgt.source = x;
+		
+		var y = seriously.effect('vignette');
+		y.amount = 2;
+		y.source = x;
+		s_tgt.source = y;
+		
+		//seriouslyVideo.widht=documentElementById.clientWidth;
+		//seriouslyVideo.height=seriouslyVideo.parentNode.clientHeight;
+		
+		seriously.go();
+		
+		$('#alertCameraAccess').alert('close');
+		document.getElementById("takePhoto_button").onclick = snap;
+	}
+	
+	function onFail(error) {
+		console.log("Failed to get access to local media. Error code was " + error.code);
+		alert("Failed to get access to local media. Error code was " + error.code + ".");
+	}
+	
+	function retake(){
+		document.getElementById("resultPhoto").style.display = "none";
+		document.getElementById("photoVideo").style.display = "inline";
+		document.getElementById("takePhoto_button").textContent = "Take photo!";
+		document.getElementById("takePhoto_button").onclick = snap;
+	}
+	
+	function snap() {
+		document.getElementById("resultPhoto").style.display = "inline";
+		//Takes photo of the live capture
+		snapshot = document.getElementById("photo");
+		
+		// Make the canvas the same size as the live video
+		snapshot.width = seriouslyVideo.clientWidth;
+		snapshot.height = seriouslyVideo.clientHeight;
+		
+		// Draw a frame of the live video onto the canvas
+		c = snapshot.getContext("2d")
+		c.drawImage(seriouslyVideo, 0, 0, snapshot.width, snapshot.height)
+	    
+		document.getElementById("takePhoto_button").textContent = "Retake!";
+		document.getElementById("takePhoto_button").onclick = retake;
+		{% if owner.uid %}
+		document.getElementById("uploadFacebook_button").onclick = upload_to_facebook;
+		{% endif %}
+		document.getElementById("photoVideo").style.display = "none";
+		// Create an image element with the canvas image data
+		img = document.createElement("img");
+		img.src = snapshot.toDataURL("image/png");
+		img.style.scale = -1, 1;
+		blob = dataURItoBlob(img.src);
+	}
+      
+	function dataURItoBlob(dataURI) {
+     // convert base64 to raw binary data held in a string
+     // doesn't handle URLEncoded DataURIs
+		var byteString;
+		if (dataURI.split(',')[0].indexOf('base64') >= 0)
+    		byteString = atob(dataURI.split(',')[1]);
+		else
+  			byteString = unescape(dataURI.split(',')[1]);
+    		// separate out the mime component
+		var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0]
+		// write the bytes of the string to an ArrayBuffer
+   		var ab = new ArrayBuffer(byteString.length);
+		var ia = new Uint8Array(ab);
+		for (var i = 0; i < byteString.length; i++) {
+			ia[i] = byteString.charCodeAt(i);
+		}
+
+	    	// write the ArrayBuffer to a blob, and you're done
+		var bb = new BlobBuilder();
+		bb.append(ab);
+		return bb.getBlob(mimeString);
+	}
+    
+	function upload_to_facebook(){
+    	//Upload object to facebook by using GraphAPI
+		var postMSG="Caption trial";
+		var url='https://graph.facebook.com/{{owner.uid}}/photos?access_token={{owner.token}}';
+ 		var formData = new FormData();
+ 		formData.append("url",blob);
+
+  		$.ajax({
+                    url: url,
+                    data: formData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    type: 'POST',
+                });
+		alert("Upload complete!");
+      }
+      
+</script>
+
+
+
+
+
+
+{% if user.username != owner.username %}
+<div class="span12">
+	<div class="pagination pagination-centered">
+		<h1>{{owner.first_name}} {{owner.last_name}} profile</h1>
+	</div>
+</div>
+{% endif%}
+
+{% if user.username == owner.username %}
+<div class="span12">
+		<h2>Welcome {{ owner.first_name }} {{ owner.last_name }}</h2>
+</div>
+<div class="span12">
+</div>
+
+<div class="span3">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li class="nav-header">Friends</li>
+	{% for friend in friends_local %}
+		{% if friend.online %}
+			<li id="{{friend.id}}_label" class ="" value="{{friend.id}}"" title="This friend is offline." onclick="" ><a href="#">
+			<img src="https://graph.facebook.com/{{friend.username}}/picture" alt="" width="20" height="20"/><i id="{{friend.id}}_icon" class="" ></i> {{friend.name}}</a></li>
+		{% else %}
+			<li id="{{friend.id}}_label" class ="" value="{{friend.id}}" title="This friend is online" onclick="select(value);"><a href="#">
+			<img src="https://graph.facebook.com/{{friend.username}}/picture" alt="" width="20" height="20"/><i id="{{friend.id}}_icon" class="icon-user"></i> {{friend.name}}</a></li>
+		{% endif %}
+	{% endfor %}
+    </ul>
+  </div><!--/.well -->
+  <div style="text-align: center" id="footer"></div>
+  <div style="text-align: center">
+  <a data-toggle="modal" href="#photoModal" class="btn btn-primary" onclick="init();">Test camera</a>
+  <a class="btn btn-primary" onclick="video_invite();">Call</a>
+  </div>
+  <div id="local_video_div" class="span6" style="width: auto;">
+	<video id="localVideo_call" class="videostream" autoplay="autoplay" title="Click me to apply Filters"
+	       style="-webkit-transition: opacity 2s;
+								-webkit-transform: scale(-1, 1);
+								opacity: 1;
+								max-width: 100%;
+								height: auto;
+								padding-top: 10px;">
+		Your browser does not support the video tag.
+	</video>
+  </div>
+</div><!--/span-->
+
+<div id="local_video_div" class="span6">
+	<video id="remoteVideo_call" class="videostream" autoplay="autoplay" title="Click me to apply Filters"
+	       style="-webkit-transition: opacity 2s;
+								-webkit-transform: scale(-1, 1);
+								opacity: 1;
+								max-width: 100%;
+								height: auto;
+								padding-top: 10px;">
+		Your browser does not support the video tag.
+	</video>
+
+	<button onclick="enterFullscreen()">Get Huge!</button>
+	<script>
+		function enterFullscreen() {
+			//var elem = document.querySelector('remoteVideo_call');
+			var elem = document.getElementById('remoteVideo_call');
+			elem.onwebkitfullscreenchange = function(e) {
+			  console.log("Entered fullscreen!");
+			  elem.onwebkitfullscreenchange = onFullscreenExit;
+			};
+			elem.webkitRequestFullScreen();
+		}
+		/*
+		 
+		 HTML PART
+		 	<canvas id="combined_video" style="-webkit-transition: opacity 2s;
+								-webkit-transform: scale(-1, 1);
+								opacity: 1;
+								padding-top: 10px;"></canvas>
+								
+								END HTML
+		var canvas = document.getElementById('combined_video');
+		var ctx    = canvas.getContext('2d');
+		var video  = document.getElementById('remoteVideo_call');
+		//canvas.width=video.clientWidth;
+		//canvas.height=document.getElementById("remoteVideo_call").clientHeight;
+		video.addEventListener('play', function () {
+		    var $this = this; //cache
+		    (function loop() {
+			if (!$this.paused && !$this.ended) {
+				canvas.style.height = $("#remoteVideo_call").css("height");
+				canvas.style.width = $("#remoteVideo_call").css("width");
+			    ctx.drawImage($this, 0, 0);
+			    setTimeout(loop, 1000 / 30); // drawing at 30fps
+			}
+		    })();
+		}, 0);
+		*/
+	</script>
+</div>
+
+<script type="text/javascript">
+	var Meeting = new Meeting('localVideo_call','remoteVideo_call','footer');	
+</script>
+
+<script>
+	var idx = 0;
+	var filters = ['grayscale', 'sepia', 'blur', 'brightness', 'contrast', 'hue-rotate',
+		       'hue-rotate2', 'hue-rotate3', 'saturate', 'invert', ''];
+	
+	function changeFilter(e, effect) {
+		console.log("Changing filter of "+e.target);
+		var el = e.target;
+		el.className = '';
+		if (effect == null) {
+			effect = filters[idx++ % filters.length]; // loop through filters.
+			if (effect) {
+				el.classList.add(effect);
+				socket.send({"id": "{{owner.id}}", action: 'effect', "to_who_id": located_friend.id, "effect": effect});
+			}
+		} else {
+			if (effect) {
+				el.classList.add(effect);
+				//socket.send({"id": "{{owner.id}}", action: 'effect', "to_who_id": located_friend.id, "effect": effect});
+			}
+		}
+		effect = null;
+	}
+	
+	document.querySelector('#localVideo_call').addEventListener('click', changeFilter, false);	
+</script>
+
+<div class="span2">
+	<h3>Chat</h3>
+	<div id="video_alert" style="display: none;" class="alert alert-block alert-error fade in">
+		<button class="close" data-dismiss="alert">&times;</button>
+		<p>Incomming video</p>
+		<p>
+			<a class="btn" onclick="video_invite_reply(true);">Answer</a> <a class="btn btn-danger">Reject</a>
+		</p>
+	</div>
+	<div>
+	<ul id="chat" data-bind="foreach: messages">
+		<li class="message"><span data-bind="text: author" style="font-weight:bold;width:200px;"></span>&nbsp;
+			<span data-bind="text: text"></span>
+		</li>
+	</ul>
+	<textarea rows="1" name="message[body]" id="chat-input" required="required" class="input-medium" style="width: 95%;"></textarea>
+</div>
+
+
+
+
+
+
+<div id="photoModal" class="modal hide fade">
+  <div class="modal-header">
+    <button class="close" data-dismiss="modal">&times;</button>
+    <h3>Smile :)</h3>
+  </div>
+  <div class="modal-body" id="Shot">	
+	<div class="alert alert-block alert-error fade in" id="alertCameraAccess">
+            <button class="close" data-dismiss="alert">&times;</button>
+            <h4 class="alert-heading">Oh snap!</h4>
+            <p>Please allow the access to your camera device in your browser.</p>
+        </div>	
+	<div id="photoVideo">
+		<video width="100%" height="100%" id="localVideo" autoplay="autoplay" style="-webkit-transition-property: opacity; -webkit-transition-duration: 2s; -webkit-transform: scale(-1, 1);">
+			Your browser does not support the video tag.
+		</video>
+		<canvas height="399px" id="seriouslyVideo" style="-webkit-transition-property: opacity; -webkit-transition-duration: 2s; -webkit-transform: scale(-1, 1);"></canvas>
+	</div>	
+	<div id="resultPhoto">
+		<canvas width="100%" height="100%" id="photo" style="-webkit-transform: scale(-1, 1);"></canvas>
+	</div>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal" >Close</a>
+    <a href="#" class="btn btn-primary" id="takePhoto_button">Take photo!</a>
+    {% if owner.uid %}
+    <a href="#" class="btn btn-primary" id="uploadFacebook_button">Upload to Facebook</a>
+    {% endif %}
+  </div>
+</div>
+
+<script type="text/javascript">
+	
+	//Listeners go to the end of the code
+	
+	function Message(data) {
+		this.text = ko.observable(data.text);
+		this.author = ko.observable(data.author);
+	}
+	
+	function ChatViewModel() {
+		//Data
+		var self = this;
+		
+		self.users = ko.observableArray([]);
+		self.messages = ko.observableArray([]);
+		
+		self.addMessage = function(data){
+			self.messages.push(new Message(data));
+		}
+	}
+	
+	var chatModel = new ChatViewModel();
+	ko.applyBindings(chatModel);
+</script>
+
+{% else %}
+Not your profile!
+{% endif %}
+
+{% endblock %}

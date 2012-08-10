@@ -22,9 +22,9 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'rtcweb2',                      # Or path to database file if using sqlite3.
-        'USER': 'root',                      # Not used with sqlite3.
-        'PASSWORD': 'w3br7c',                  # Not used with sqlite3.
+        'NAME': '',                      # Or path to database file if using sqlite3.
+        'USER': '',                      # Not used with sqlite3.
+        'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
@@ -189,12 +189,12 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 
 # Add your Facebook API keys here
-FACEBOOK_APP_ID = '222073067889330'
-FACEBOOK_API_SECRET = '97ad1729d35e111607206ffb2287dd9b'
+FACEBOOK_APP_ID = ''
+FACEBOOK_API_SECRET = ''
 FACEBOOK_AUTH_EXTRA_ARGUMENTS= {'scope': 'user_about_me,email,publish_stream'}
 #FACEBOOK_REQUEST_PERMISSIONS = ('email,user_about_me')
-TWITTER_CONSUMER_KEY         = 'F1KkaKJSx23esWzfIxk4ZQ'
-TWITTER_CONSUMER_SECRET      = 'Qj7tXWkxv6LSxJ9nDU7NpOFxVP78hYl6rw0IabcMPM'
+TWITTER_CONSUMER_KEY         = ''
+TWITTER_CONSUMER_SECRET      = ''
 
 
 # Add your LinkedIn API keys here
